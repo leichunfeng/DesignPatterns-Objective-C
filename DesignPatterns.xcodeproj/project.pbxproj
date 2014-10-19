@@ -24,6 +24,11 @@
 		2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54319F37EEF00437073 /* DPOperationMul.m */; };
 		2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54519F37EEF00437073 /* DPOperationSub.m */; };
 		2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54C19F3819200437073 /* DPSimpleFactoryTests.m */; };
+		2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55119F39E7C00437073 /* DPUndergraduate.m */; };
+		2467F55519F39EB700437073 /* DPVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55419F39EB700437073 /* DPVolunteer.m */; };
+		2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */; };
+		2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55B19F3A11100437073 /* DPVolunteerFactory.m */; };
+		2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,17 @@
 		2467F54419F37EEF00437073 /* DPOperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationSub.h; sourceTree = "<group>"; };
 		2467F54519F37EEF00437073 /* DPOperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationSub.m; sourceTree = "<group>"; };
 		2467F54C19F3819200437073 /* DPSimpleFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSimpleFactoryTests.m; sourceTree = "<group>"; };
+		2467F54F19F39DE300437073 /* DPLeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLeiFeng.h; sourceTree = "<group>"; };
+		2467F55019F39E7C00437073 /* DPUndergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUndergraduate.h; sourceTree = "<group>"; };
+		2467F55119F39E7C00437073 /* DPUndergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUndergraduate.m; sourceTree = "<group>"; };
+		2467F55319F39EB700437073 /* DPVolunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVolunteer.h; sourceTree = "<group>"; };
+		2467F55419F39EB700437073 /* DPVolunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVolunteer.m; sourceTree = "<group>"; };
+		2467F55619F3A01E00437073 /* DPLeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLeiFengFactory.h; sourceTree = "<group>"; };
+		2467F55719F3A0E200437073 /* DPUndergraduateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUndergraduateFactory.h; sourceTree = "<group>"; };
+		2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUndergraduateFactory.m; sourceTree = "<group>"; };
+		2467F55A19F3A11100437073 /* DPVolunteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVolunteerFactory.h; sourceTree = "<group>"; };
+		2467F55B19F3A11100437073 /* DPVolunteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVolunteerFactory.m; sourceTree = "<group>"; };
+		2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFactoryMethodTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +139,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				2467F54E19F3907800437073 /* FactoryMethod */,
 				2467F53A19F37EEF00437073 /* SimpleFactory */,
 				2467F51A19F37ED800437073 /* DPAppDelegate.h */,
 				2467F51B19F37ED800437073 /* DPAppDelegate.m */,
@@ -146,6 +163,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				2467F55D19F3A1E200437073 /* FactoryMethod */,
 				2467F54B19F3813100437073 /* SimpleFactory */,
 				2467F52B19F37ED900437073 /* Supporting Files */,
 			);
@@ -185,6 +203,31 @@
 				2467F54C19F3819200437073 /* DPSimpleFactoryTests.m */,
 			);
 			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		2467F54E19F3907800437073 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				2467F54F19F39DE300437073 /* DPLeiFeng.h */,
+				2467F55019F39E7C00437073 /* DPUndergraduate.h */,
+				2467F55119F39E7C00437073 /* DPUndergraduate.m */,
+				2467F55319F39EB700437073 /* DPVolunteer.h */,
+				2467F55419F39EB700437073 /* DPVolunteer.m */,
+				2467F55619F3A01E00437073 /* DPLeiFengFactory.h */,
+				2467F55719F3A0E200437073 /* DPUndergraduateFactory.h */,
+				2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */,
+				2467F55A19F3A11100437073 /* DPVolunteerFactory.h */,
+				2467F55B19F3A11100437073 /* DPVolunteerFactory.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		2467F55D19F3A1E200437073 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +328,14 @@
 			files = (
 				2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */,
 				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
+				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
 				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
+				2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */,
 				2467F51C19F37ED800437073 /* DPAppDelegate.m in Sources */,
+				2467F55519F39EB700437073 /* DPVolunteer.m in Sources */,
 				2467F51819F37ED800437073 /* main.m in Sources */,
 				2467F54819F37EEF00437073 /* DPOperationFactory.m in Sources */,
+				2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */,
 				2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */,
+				2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
