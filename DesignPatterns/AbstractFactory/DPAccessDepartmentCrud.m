@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
 
-#import "DPDepartmentCrudAccess.h"
+#import "DPAccessDepartmentCrud.h"
 
-@implementation DPDepartmentCrudAccess
+@implementation DPAccessDepartmentCrud
 
 - (void)insert:(DPDepartment *)department {
     NSLog(@"在Access中给Department表增加一条记录");

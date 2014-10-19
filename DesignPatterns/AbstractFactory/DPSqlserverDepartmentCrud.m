@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
 
-#import "DPDepartmentCrudSqlserver.h"
+#import "DPSqlserverDepartmentCrud.h"
 
-@implementation DPDepartmentCrudSqlserver
+@implementation DPSqlserverDepartmentCrud
 
 - (void)insert:(DPDepartment *)department {
     NSLog(@"在SQL Server中给Department表增加一条记录");

@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
 
-#import "DPUserCrudSqlserver.h"
+#import "DPSqlserverUserCrud.h"
 
-@implementation DPUserCrudSqlserver
+@implementation DPSqlserverUserCrud
 
 - (void)insert:(DPUser *)user {
     NSLog(@"在SQL Server中给User表增加一条记录");

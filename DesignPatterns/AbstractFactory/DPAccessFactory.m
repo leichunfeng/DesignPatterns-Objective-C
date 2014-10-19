@@ -6,18 +6,18 @@
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
 
-#import "DPFactoryAccess.h"
-#import "DPUserCrudAccess.h"
-#import "DPDepartmentCrudAccess.h"
+#import "DPAccessFactory.h"
+#import "DPAccessUserCrud.h"
+#import "DPAccessDepartmentCrud.h"
 
-@implementation DPFactoryAccess
+@implementation DPAccessFactory
 
 - (id<DPUserCrud>)createUserCrud {
-    return [DPUserCrudAccess new];
+    return [DPAccessUserCrud new];
 }
 
 - (id<DPDepartmentCrud>)createDepartmentCrud {
-    return [DPDepartmentCrudAccess new];
+    return [DPAccessDepartmentCrud new];
 }
 
 @end

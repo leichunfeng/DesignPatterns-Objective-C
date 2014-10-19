@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "DPDepartmentCrud.h"
 
-@interface DPDepartmentCrudAccess : NSObject <DPDepartmentCrud>
+@interface DPAccessDepartmentCrud : NSObject <DPDepartmentCrud>
 
 @end

@@ -10,8 +10,8 @@
 #import "DPUser.h"
 #import "DPDepartment.h"
 #import "DPFactory.h"
-#import "DPFactorySqlserver.h"
-#import "DPFactoryAccess.h"
+#import "DPSqlserverFactory.h"
+#import "DPAccessFactory.h"
 
 @interface DPAbstractFactoryTests : XCTestCase
 
@@ -34,8 +34,8 @@
     DPUser *user = [DPUser new];
     DPDepartment *department = [DPDepartment new];
     
-    id <DPFactory> factory = [DPFactorySqlserver new];
-//    id <DPFactory> factory = [DPFactoryAccess new];
+    id <DPFactory> factory = [DPSqlserverFactory new];
+//    id <DPFactory> factory = [DPAccessFactory new];
     
     id <DPUserCrud> userCrud = [factory createUserCrud];
     [userCrud insert:user];

@@ -1,5 +1,5 @@
 //
-//  DPDepartmentCrudSqlserver.h
+//  DPUserCrudSqlserver.h
 //  DesignPatterns
 //
 //  Created by leichunfeng on 14-10-19.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DPDepartmentCrud.h"
+#import "DPUserCrud.h"
 
-@interface DPDepartmentCrudSqlserver : NSObject <DPDepartmentCrud>
+@interface DPSqlserverUserCrud : NSObject <DPUserCrud>
 
 @end

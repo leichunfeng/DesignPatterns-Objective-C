@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "DPFactory.h"
 
-@interface DPFactorySqlserver : NSObject <DPFactory>
+@interface DPSqlserverFactory : NSObject <DPFactory>
 
 @end

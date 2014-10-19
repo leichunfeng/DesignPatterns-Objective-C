@@ -6,18 +6,18 @@
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
 
-#import "DPFactorySqlserver.h"
-#import "DPUserCrudSqlserver.h"
-#import "DPDepartmentCrudSqlserver.h"
+#import "DPSqlserverFactory.h"
+#import "DPSqlserverUserCrud.h"
+#import "DPSqlserverDepartmentCrud.h"
 
-@implementation DPFactorySqlserver
+@implementation DPSqlserverFactory
 
 - (id<DPUserCrud>)createUserCrud {
-    return [DPUserCrudSqlserver new];
+    return [DPSqlserverUserCrud new];
 }
 
 - (id<DPDepartmentCrud>)createDepartmentCrud {
-    return [DPDepartmentCrudSqlserver new];
+    return [DPSqlserverDepartmentCrud new];
 }
 
 @end

@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "DPUserCrud.h"
 
-@interface DPUserCrudAccess : NSObject <DPUserCrud>
+@interface DPAccessUserCrud : NSObject <DPUserCrud>
 
 @end

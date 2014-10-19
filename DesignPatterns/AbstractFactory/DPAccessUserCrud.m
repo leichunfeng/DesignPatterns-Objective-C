@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
 
-#import "DPUserCrudAccess.h"
+#import "DPAccessUserCrud.h"
 
-@implementation DPUserCrudAccess
+@implementation DPAccessUserCrud
 
 - (void)insert:(DPUser *)user {
     NSLog(@"在Access中给User表增加一条记录");
