@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2407155119F3EA5900E9F749 /* DPFactorySqlserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155019F3EA5900E9F749 /* DPFactorySqlserver.m */; };
+		2407155419F3EA6C00E9F749 /* DPFactoryAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155319F3EA6C00E9F749 /* DPFactoryAccess.m */; };
+		2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */; };
 		2467F50C19F37ED800437073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50B19F37ED800437073 /* Foundation.framework */; };
 		2467F50E19F37ED800437073 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50D19F37ED800437073 /* CoreGraphics.framework */; };
 		2467F51019F37ED800437073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50F19F37ED800437073 /* UIKit.framework */; };
@@ -29,6 +32,12 @@
 		2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */; };
 		2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55B19F3A11100437073 /* DPVolunteerFactory.m */; };
 		2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */; };
+		2467F56319F3CB2700437073 /* DPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F56219F3CB2700437073 /* DPUser.m */; };
+		2467F56619F3CB7000437073 /* DPDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F56519F3CB7000437073 /* DPDepartment.m */; };
+		2467F57619F3D1C700437073 /* DPUserCrudSqlserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57519F3D1C700437073 /* DPUserCrudSqlserver.m */; };
+		2467F57919F3D1DE00437073 /* DPUserCrudAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57819F3D1DE00437073 /* DPUserCrudAccess.m */; };
+		2467F57D19F3D24B00437073 /* DPDepartmentCrudSqlserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57C19F3D24B00437073 /* DPDepartmentCrudSqlserver.m */; };
+		2467F58019F3D25A00437073 /* DPDepartmentCrudAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57F19F3D25A00437073 /* DPDepartmentCrudAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2407154F19F3EA5900E9F749 /* DPFactorySqlserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFactorySqlserver.h; sourceTree = "<group>"; };
+		2407155019F3EA5900E9F749 /* DPFactorySqlserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFactorySqlserver.m; sourceTree = "<group>"; };
+		2407155219F3EA6C00E9F749 /* DPFactoryAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFactoryAccess.h; sourceTree = "<group>"; };
+		2407155319F3EA6C00E9F749 /* DPFactoryAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFactoryAccess.m; sourceTree = "<group>"; };
+		2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAbstractFactoryTests.m; sourceTree = "<group>"; };
 		2467F50819F37ED800437073 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467F50B19F37ED800437073 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2467F50D19F37ED800437073 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +94,21 @@
 		2467F55A19F3A11100437073 /* DPVolunteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVolunteerFactory.h; sourceTree = "<group>"; };
 		2467F55B19F3A11100437073 /* DPVolunteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVolunteerFactory.m; sourceTree = "<group>"; };
 		2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFactoryMethodTests.m; sourceTree = "<group>"; };
+		2467F56119F3CB2700437073 /* DPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUser.h; sourceTree = "<group>"; };
+		2467F56219F3CB2700437073 /* DPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUser.m; sourceTree = "<group>"; };
+		2467F56419F3CB7000437073 /* DPDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDepartment.h; sourceTree = "<group>"; };
+		2467F56519F3CB7000437073 /* DPDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDepartment.m; sourceTree = "<group>"; };
+		2467F56919F3CDF000437073 /* DPFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFactory.h; sourceTree = "<group>"; };
+		2467F56D19F3D13500437073 /* DPUserCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUserCrud.h; sourceTree = "<group>"; };
+		2467F57419F3D1C700437073 /* DPUserCrudSqlserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUserCrudSqlserver.h; sourceTree = "<group>"; };
+		2467F57519F3D1C700437073 /* DPUserCrudSqlserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUserCrudSqlserver.m; sourceTree = "<group>"; };
+		2467F57719F3D1DE00437073 /* DPUserCrudAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUserCrudAccess.h; sourceTree = "<group>"; };
+		2467F57819F3D1DE00437073 /* DPUserCrudAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUserCrudAccess.m; sourceTree = "<group>"; };
+		2467F57A19F3D21500437073 /* DPDepartmentCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDepartmentCrud.h; sourceTree = "<group>"; };
+		2467F57B19F3D24B00437073 /* DPDepartmentCrudSqlserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDepartmentCrudSqlserver.h; sourceTree = "<group>"; };
+		2467F57C19F3D24B00437073 /* DPDepartmentCrudSqlserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDepartmentCrudSqlserver.m; sourceTree = "<group>"; };
+		2467F57E19F3D25A00437073 /* DPDepartmentCrudAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDepartmentCrudAccess.h; sourceTree = "<group>"; };
+		2467F57F19F3D25A00437073 /* DPDepartmentCrudAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDepartmentCrudAccess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2407155519F3EB9100E9F749 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
 		2467F4FF19F37ED800437073 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +176,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				2467F56019F3C67F00437073 /* AbstractFactory */,
 				2467F54E19F3907800437073 /* FactoryMethod */,
 				2467F53A19F37EEF00437073 /* SimpleFactory */,
 				2467F51A19F37ED800437073 /* DPAppDelegate.h */,
@@ -163,6 +201,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				2407155519F3EB9100E9F749 /* AbstractFactory */,
 				2467F55D19F3A1E200437073 /* FactoryMethod */,
 				2467F54B19F3813100437073 /* SimpleFactory */,
 				2467F52B19F37ED900437073 /* Supporting Files */,
@@ -228,6 +267,32 @@
 				2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		2467F56019F3C67F00437073 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				2467F56119F3CB2700437073 /* DPUser.h */,
+				2467F56219F3CB2700437073 /* DPUser.m */,
+				2467F56D19F3D13500437073 /* DPUserCrud.h */,
+				2467F57419F3D1C700437073 /* DPUserCrudSqlserver.h */,
+				2467F57519F3D1C700437073 /* DPUserCrudSqlserver.m */,
+				2467F57719F3D1DE00437073 /* DPUserCrudAccess.h */,
+				2467F57819F3D1DE00437073 /* DPUserCrudAccess.m */,
+				2467F56419F3CB7000437073 /* DPDepartment.h */,
+				2467F56519F3CB7000437073 /* DPDepartment.m */,
+				2467F57A19F3D21500437073 /* DPDepartmentCrud.h */,
+				2467F57B19F3D24B00437073 /* DPDepartmentCrudSqlserver.h */,
+				2467F57C19F3D24B00437073 /* DPDepartmentCrudSqlserver.m */,
+				2467F57E19F3D25A00437073 /* DPDepartmentCrudAccess.h */,
+				2467F57F19F3D25A00437073 /* DPDepartmentCrudAccess.m */,
+				2467F56919F3CDF000437073 /* DPFactory.h */,
+				2407154F19F3EA5900E9F749 /* DPFactorySqlserver.h */,
+				2407155019F3EA5900E9F749 /* DPFactorySqlserver.m */,
+				2407155219F3EA6C00E9F749 /* DPFactoryAccess.h */,
+				2407155319F3EA6C00E9F749 /* DPFactoryAccess.m */,
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,15 +392,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */,
+				2407155419F3EA6C00E9F749 /* DPFactoryAccess.m in Sources */,
 				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
 				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
+				2467F57D19F3D24B00437073 /* DPDepartmentCrudSqlserver.m in Sources */,
+				2467F57919F3D1DE00437073 /* DPUserCrudAccess.m in Sources */,
 				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
+				2407155119F3EA5900E9F749 /* DPFactorySqlserver.m in Sources */,
 				2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */,
 				2467F51C19F37ED800437073 /* DPAppDelegate.m in Sources */,
 				2467F55519F39EB700437073 /* DPVolunteer.m in Sources */,
+				2467F57619F3D1C700437073 /* DPUserCrudSqlserver.m in Sources */,
+				2467F56619F3CB7000437073 /* DPDepartment.m in Sources */,
 				2467F51819F37ED800437073 /* main.m in Sources */,
 				2467F54819F37EEF00437073 /* DPOperationFactory.m in Sources */,
+				2467F58019F3D25A00437073 /* DPDepartmentCrudAccess.m in Sources */,
 				2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */,
+				2467F56319F3CB2700437073 /* DPUser.m in Sources */,
 				2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */,
 				2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */,
 				2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */,
 			);
