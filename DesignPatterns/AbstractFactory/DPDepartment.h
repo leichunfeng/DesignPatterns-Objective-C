@@ -10,14 +10,10 @@
 
 @interface DPDepartment : NSObject
 
-/**
- *  部门id
- */
+///  部门id
 @property (strong, nonatomic) NSString *deptId;
 
-/**
- *  部门名称
- */
+///  部门名称
 @property (strong, nonatomic) NSString *deptName;
 
 @end

@@ -10,21 +10,15 @@
 
 @protocol DPOperation <NSObject>
 
-/**
- *  操作数numberA
- */
+///  操作数numberA
 @property (nonatomic) CGFloat numberA;
 
-/**
- *  操作数numberB
- */
+///  操作数numberB
 @property (nonatomic) CGFloat numberB;
 
-/**
- *  获取运算结果
- *
- *  @return 运算结果
- */
+///  获取运算结果
+///
+///  @return 运算结果
 - (CGFloat)getResult;
 
 @end

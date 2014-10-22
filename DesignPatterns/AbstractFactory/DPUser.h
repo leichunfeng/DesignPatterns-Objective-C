@@ -10,14 +10,10 @@
 
 @interface DPUser : NSObject
 
-/**
- *  用户id
- */
+///  用户id
 @property (strong, nonatomic) NSString *userId;
 
-/**
- *  用户名
- */
+///  用户名
 @property (strong, nonatomic) NSString *userName;
 
 @end

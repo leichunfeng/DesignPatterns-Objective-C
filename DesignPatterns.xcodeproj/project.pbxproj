@@ -38,6 +38,11 @@
 		2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57819F3D1DE00437073 /* DPAccessUserCrud.m */; };
 		2467F57D19F3D24B00437073 /* DPSqlserverDepartmentCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57C19F3D24B00437073 /* DPSqlserverDepartmentCrud.m */; };
 		2467F58019F3D25A00437073 /* DPAccessDepartmentCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57F19F3D25A00437073 /* DPAccessDepartmentCrud.m */; };
+		2491E15F19F7F0AE009AC42F /* DPStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2491E15E19F7F0AE009AC42F /* DPStrategyTests.m */; };
+		2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2491E16219F7F20E009AC42F /* DPCashContext.m */; };
+		24F8A7CE19F402B600F8BE19 /* DPCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8A7CD19F402B600F8BE19 /* DPCashNormal.m */; };
+		24F8A7D119F402C400F8BE19 /* DPCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8A7D019F402C400F8BE19 /* DPCashRebate.m */; };
+		24F8A7D419F402FC00F8BE19 /* DPCashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8A7D319F402FC00F8BE19 /* DPCashReturn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,16 @@
 		2467F57C19F3D24B00437073 /* DPSqlserverDepartmentCrud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSqlserverDepartmentCrud.m; sourceTree = "<group>"; };
 		2467F57E19F3D25A00437073 /* DPAccessDepartmentCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccessDepartmentCrud.h; sourceTree = "<group>"; };
 		2467F57F19F3D25A00437073 /* DPAccessDepartmentCrud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAccessDepartmentCrud.m; sourceTree = "<group>"; };
+		2491E15E19F7F0AE009AC42F /* DPStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStrategyTests.m; sourceTree = "<group>"; };
+		2491E16119F7F20E009AC42F /* DPCashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashContext.h; sourceTree = "<group>"; };
+		2491E16219F7F20E009AC42F /* DPCashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashContext.m; sourceTree = "<group>"; };
+		24F8A7CB19F4029A00F8BE19 /* DPCashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashSuper.h; sourceTree = "<group>"; };
+		24F8A7CC19F402B600F8BE19 /* DPCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashNormal.h; sourceTree = "<group>"; };
+		24F8A7CD19F402B600F8BE19 /* DPCashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashNormal.m; sourceTree = "<group>"; };
+		24F8A7CF19F402C400F8BE19 /* DPCashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashRebate.h; sourceTree = "<group>"; };
+		24F8A7D019F402C400F8BE19 /* DPCashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashRebate.m; sourceTree = "<group>"; };
+		24F8A7D219F402FC00F8BE19 /* DPCashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashReturn.h; sourceTree = "<group>"; };
+		24F8A7D319F402FC00F8BE19 /* DPCashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashReturn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +191,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				24F8A7C919F4027100F8BE19 /* Strategy */,
 				2467F56019F3C67F00437073 /* AbstractFactory */,
 				2467F54E19F3907800437073 /* FactoryMethod */,
 				2467F53A19F37EEF00437073 /* SimpleFactory */,
@@ -201,6 +217,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				2491E15D19F7F074009AC42F /* Strategy */,
 				2407155519F3EB9100E9F749 /* AbstractFactory */,
 				2467F55D19F3A1E200437073 /* FactoryMethod */,
 				2467F54B19F3813100437073 /* SimpleFactory */,
@@ -293,6 +310,30 @@
 				2407155319F3EA6C00E9F749 /* DPAccessFactory.m */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		2491E15D19F7F074009AC42F /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				2491E15E19F7F0AE009AC42F /* DPStrategyTests.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		24F8A7C919F4027100F8BE19 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				24F8A7CB19F4029A00F8BE19 /* DPCashSuper.h */,
+				24F8A7CC19F402B600F8BE19 /* DPCashNormal.h */,
+				24F8A7CD19F402B600F8BE19 /* DPCashNormal.m */,
+				24F8A7CF19F402C400F8BE19 /* DPCashRebate.h */,
+				24F8A7D019F402C400F8BE19 /* DPCashRebate.m */,
+				24F8A7D219F402FC00F8BE19 /* DPCashReturn.h */,
+				24F8A7D319F402FC00F8BE19 /* DPCashReturn.m */,
+				2491E16119F7F20E009AC42F /* DPCashContext.h */,
+				2491E16219F7F20E009AC42F /* DPCashContext.m */,
+			);
+			path = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,8 +434,10 @@
 			files = (
 				2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */,
 				2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */,
+				2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */,
 				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
 				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
+				24F8A7D419F402FC00F8BE19 /* DPCashReturn.m in Sources */,
 				2467F57D19F3D24B00437073 /* DPSqlserverDepartmentCrud.m in Sources */,
 				2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */,
 				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
@@ -404,10 +447,12 @@
 				2467F55519F39EB700437073 /* DPVolunteer.m in Sources */,
 				2467F57619F3D1C700437073 /* DPSqlserverUserCrud.m in Sources */,
 				2467F56619F3CB7000437073 /* DPDepartment.m in Sources */,
+				24F8A7D119F402C400F8BE19 /* DPCashRebate.m in Sources */,
 				2467F51819F37ED800437073 /* main.m in Sources */,
 				2467F54819F37EEF00437073 /* DPOperationFactory.m in Sources */,
 				2467F58019F3D25A00437073 /* DPAccessDepartmentCrud.m in Sources */,
 				2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */,
+				24F8A7CE19F402B600F8BE19 /* DPCashNormal.m in Sources */,
 				2467F56319F3CB2700437073 /* DPUser.m in Sources */,
 				2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */,
 			);
@@ -419,6 +464,7 @@
 			files = (
 				2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */,
 				2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */,
+				2491E15F19F7F0AE009AC42F /* DPStrategyTests.m in Sources */,
 				2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

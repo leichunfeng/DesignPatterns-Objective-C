@@ -1,5 +1,5 @@
 //
-//  DPLeiFeng.h
+//  DPCashNormal.h
 //  DesignPatterns
 //
 //  Created by leichunfeng on 14-10-19.
@@ -7,16 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DPCashSuper.h"
 
-@protocol DPLeiFeng <NSObject>
-
-///  扫地
-- (void)sweep;
-
-///  洗衣
-- (void)wash;
-
-///  买米
-- (void)buyRice;
+@interface DPCashNormal : NSObject <DPCashSuper>
 
 @end
