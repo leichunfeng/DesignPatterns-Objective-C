@@ -19,14 +19,6 @@
 
 @implementation DPStrategyTests
 
-- (void)setUp {
-    [super setUp];
-}
-
-- (void)tearDown {
-    [super tearDown];
-}
-
 - (void)testStrategy {
     CGFloat result = 0.0;
     

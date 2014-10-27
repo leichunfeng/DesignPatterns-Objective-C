@@ -18,18 +18,7 @@
 
 @implementation DPFactoryMethodTests
 
-- (void)setUp
-{
-    [super setUp];
-}
-
-- (void)tearDown
-{
-    [super tearDown];
-}
-
-- (void)testFactoryMethod
-{
+- (void)testFactoryMethod {
     id <DPLeiFengFactory> leiFengFactory = [DPUndergraduateFactory new];
 //    id <DPLeiFengFactory> leiFengFactory = [DPVolunteerFactory new];
     

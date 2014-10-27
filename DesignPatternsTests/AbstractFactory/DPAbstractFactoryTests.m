@@ -19,18 +19,7 @@
 
 @implementation DPAbstractFactoryTests
 
-- (void)setUp
-{
-    [super setUp];
-}
-
-- (void)tearDown
-{
-    [super tearDown];
-}
-
-- (void)testAbstractFactory
-{
+- (void)testAbstractFactory {
     DPUser *user = [DPUser new];
     DPDepartment *department = [DPDepartment new];
     

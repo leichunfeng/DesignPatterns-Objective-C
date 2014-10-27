@@ -16,18 +16,7 @@
 
 @implementation DPSimpleFactoryTests
 
-- (void)setUp
-{
-    [super setUp];
-}
-
-- (void)tearDown
-{
-    [super tearDown];
-}
-
-- (void)testSimpleFactory
-{
+- (void)testSimpleFactory {
     id <DPOperation> operation = [DPOperationFactory createOperation:DPOperationTypeAdd];
     [operation setNumberA:100.0];
     [operation setNumberB:25.0];
