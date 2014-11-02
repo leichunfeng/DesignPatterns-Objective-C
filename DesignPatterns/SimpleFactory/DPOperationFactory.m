@@ -26,7 +26,7 @@
             return [DPOperationDiv new];
         default:
             @throw [NSException exceptionWithName:NSInvalidArgumentException
-                                           reason:[NSString stringWithFormat:@"The given operationType `%d` does not correspond to any known DPOperationType.", operationType]
+                                           reason:[NSString stringWithFormat:@"The given operationType `%lu` does not correspond to any known DPOperationType.", operationType]
                                          userInfo:nil];
     }
 }

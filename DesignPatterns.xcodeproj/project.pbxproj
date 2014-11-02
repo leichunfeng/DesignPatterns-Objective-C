@@ -48,6 +48,12 @@
 		24B2B04A1A06007C001D74E0 /* DPTestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0491A06007C001D74E0 /* DPTestPaperA.m */; };
 		24B2B04D1A0609A8001D74E0 /* DPTestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B04C1A0609A8001D74E0 /* DPTestPaperB.m */; };
 		24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B04F1A060A28001D74E0 /* DPTemplateMethodTests.m */; };
+		24B2B0571A066288001D74E0 /* DPHandsetBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0561A066288001D74E0 /* DPHandsetBrand.m */; };
+		24B2B05B1A066366001D74E0 /* DPHandsetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B05A1A066366001D74E0 /* DPHandsetGame.m */; };
+		24B2B05E1A0663ED001D74E0 /* DPHandsetAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B05D1A0663ED001D74E0 /* DPHandsetAddressList.m */; };
+		24B2B0611A0664E6001D74E0 /* DPHandsetBrandN.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */; };
+		24B2B0641A066A9F001D74E0 /* DPHandsetBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */; };
+		24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */; };
 		24D9587B19FE972600C3F23E /* DPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587A19FE972600C3F23E /* DPEveningState.m */; };
 		24D9587E19FE979000C3F23E /* DPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587D19FE979000C3F23E /* DPSleepingState.m */; };
 		24D9588119FE979C00C3F23E /* DPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588019FE979C00C3F23E /* DPRestState.m */; };
@@ -145,6 +151,18 @@
 		24B2B04B1A0609A8001D74E0 /* DPTestPaperB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTestPaperB.h; sourceTree = "<group>"; };
 		24B2B04C1A0609A8001D74E0 /* DPTestPaperB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTestPaperB.m; sourceTree = "<group>"; };
 		24B2B04F1A060A28001D74E0 /* DPTemplateMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTemplateMethodTests.m; sourceTree = "<group>"; };
+		24B2B0551A066288001D74E0 /* DPHandsetBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrand.h; sourceTree = "<group>"; };
+		24B2B0561A066288001D74E0 /* DPHandsetBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrand.m; sourceTree = "<group>"; };
+		24B2B0581A066316001D74E0 /* DPHandsetSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetSoft.h; sourceTree = "<group>"; };
+		24B2B0591A066366001D74E0 /* DPHandsetGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetGame.h; sourceTree = "<group>"; };
+		24B2B05A1A066366001D74E0 /* DPHandsetGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetGame.m; sourceTree = "<group>"; };
+		24B2B05C1A0663ED001D74E0 /* DPHandsetAddressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetAddressList.h; sourceTree = "<group>"; };
+		24B2B05D1A0663ED001D74E0 /* DPHandsetAddressList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetAddressList.m; sourceTree = "<group>"; };
+		24B2B05F1A0664E6001D74E0 /* DPHandsetBrandN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrandN.h; sourceTree = "<group>"; };
+		24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrandN.m; sourceTree = "<group>"; };
+		24B2B0621A066A9F001D74E0 /* DPHandsetBrandM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrandM.h; sourceTree = "<group>"; };
+		24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrandM.m; sourceTree = "<group>"; };
+		24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBridgeTests.m; sourceTree = "<group>"; };
 		24D9587919FE972600C3F23E /* DPEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPEveningState.h; sourceTree = "<group>"; };
 		24D9587A19FE972600C3F23E /* DPEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPEveningState.m; sourceTree = "<group>"; };
 		24D9587C19FE979000C3F23E /* DPSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSleepingState.h; sourceTree = "<group>"; };
@@ -248,6 +266,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				24B2B0511A065FF5001D74E0 /* Bridge */,
 				24B2B0441A05E9D5001D74E0 /* TemplateMethod */,
 				245C997D19FE849100B0EBBA /* State */,
 				24F8A7C919F4027100F8BE19 /* Strategy */,
@@ -276,6 +295,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				24B2B0651A066AF1001D74E0 /* Bridge */,
 				24B2B04E1A060A0C001D74E0 /* TemplateMethod */,
 				24D9588219FE99A900C3F23E /* State */,
 				2491E15D19F7F074009AC42F /* Strategy */,
@@ -400,6 +420,32 @@
 				24B2B04F1A060A28001D74E0 /* DPTemplateMethodTests.m */,
 			);
 			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		24B2B0511A065FF5001D74E0 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				24B2B0551A066288001D74E0 /* DPHandsetBrand.h */,
+				24B2B0561A066288001D74E0 /* DPHandsetBrand.m */,
+				24B2B0621A066A9F001D74E0 /* DPHandsetBrandM.h */,
+				24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */,
+				24B2B05F1A0664E6001D74E0 /* DPHandsetBrandN.h */,
+				24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */,
+				24B2B0581A066316001D74E0 /* DPHandsetSoft.h */,
+				24B2B0591A066366001D74E0 /* DPHandsetGame.h */,
+				24B2B05A1A066366001D74E0 /* DPHandsetGame.m */,
+				24B2B05C1A0663ED001D74E0 /* DPHandsetAddressList.h */,
+				24B2B05D1A0663ED001D74E0 /* DPHandsetAddressList.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		24B2B0651A066AF1001D74E0 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		24D9588219FE99A900C3F23E /* State */ = {
@@ -529,14 +575,19 @@
 				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
 				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
 				24F8A7D419F402FC00F8BE19 /* DPCashReturn.m in Sources */,
+				24B2B0611A0664E6001D74E0 /* DPHandsetBrandN.m in Sources */,
+				24B2B0571A066288001D74E0 /* DPHandsetBrand.m in Sources */,
 				2467F57D19F3D24B00437073 /* DPSqlserverDepartmentCrud.m in Sources */,
 				2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */,
 				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
 				24B2B0471A05F5C3001D74E0 /* DPTestPaper.m in Sources */,
 				240447DB19FE939100FB315D /* DPAfternoonState.m in Sources */,
 				245C998719FE8F0A00B0EBBA /* DPNoonState.m in Sources */,
+				24B2B0641A066A9F001D74E0 /* DPHandsetBrandM.m in Sources */,
+				24B2B05E1A0663ED001D74E0 /* DPHandsetAddressList.m in Sources */,
 				2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */,
 				2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */,
+				24B2B05B1A066366001D74E0 /* DPHandsetGame.m in Sources */,
 				2467F51C19F37ED800437073 /* DPAppDelegate.m in Sources */,
 				2467F55519F39EB700437073 /* DPVolunteer.m in Sources */,
 				2467F57619F3D1C700437073 /* DPSqlserverUserCrud.m in Sources */,
@@ -564,6 +615,7 @@
 			files = (
 				24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */,
 				24D9588419FE99B800C3F23E /* DPStateTests.m in Sources */,
+				24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */,
 				2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */,
 				2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */,
 				2491E15F19F7F0AE009AC42F /* DPStrategyTests.m in Sources */,
