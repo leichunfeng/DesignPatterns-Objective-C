@@ -15,7 +15,8 @@
 * **里氏代换原则（LSP）**，子类型必须能够替换掉它们的父类型。
 * **迪米特法则（LoD）**，如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用。如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用。
 * **合成/聚合复用原则（CARP）**，尽量使用合成/聚合，尽量不要使用类继承。
-* 注：SRP-Single Responsibility Principle，OCP-Open-Closed Principle，DIP-Dependency Inversion Principle，LSP-Liskov Subsitution Principle，LoD-Law of Demeter，CARP-Composition/Aggregation Principle。
+
+注：SRP-Single Responsibility Principle，OCP-Open-Closed Principle，DIP-Dependency Inversion Principle，LSP-Liskov Subsitution Principle，LoD-Law of Demeter，CARP-Composition/Aggregation Principle。
 
 ## 已实现的设计模式
 
