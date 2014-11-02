@@ -54,6 +54,10 @@
 		24B2B0611A0664E6001D74E0 /* DPHandsetBrandN.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */; };
 		24B2B0641A066A9F001D74E0 /* DPHandsetBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */; };
 		24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */; };
+		24B2B0781A067A87001D74E0 /* DPPersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0771A067A87001D74E0 /* DPPersonThinBuilder.m */; };
+		24B2B07B1A067B4E001D74E0 /* DPPersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */; };
+		24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */; };
+		24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */; };
 		24D9587B19FE972600C3F23E /* DPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587A19FE972600C3F23E /* DPEveningState.m */; };
 		24D9587E19FE979000C3F23E /* DPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587D19FE979000C3F23E /* DPSleepingState.m */; };
 		24D9588119FE979C00C3F23E /* DPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588019FE979C00C3F23E /* DPRestState.m */; };
@@ -163,6 +167,14 @@
 		24B2B0621A066A9F001D74E0 /* DPHandsetBrandM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrandM.h; sourceTree = "<group>"; };
 		24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrandM.m; sourceTree = "<group>"; };
 		24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBridgeTests.m; sourceTree = "<group>"; };
+		24B2B06F1A06751A001D74E0 /* DPPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonBuilder.h; sourceTree = "<group>"; };
+		24B2B0761A067A87001D74E0 /* DPPersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonThinBuilder.h; sourceTree = "<group>"; };
+		24B2B0771A067A87001D74E0 /* DPPersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonThinBuilder.m; sourceTree = "<group>"; };
+		24B2B0791A067B4E001D74E0 /* DPPersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonFatBuilder.h; sourceTree = "<group>"; };
+		24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonFatBuilder.m; sourceTree = "<group>"; };
+		24B2B07F1A067BFE001D74E0 /* DPPersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonDirector.h; sourceTree = "<group>"; };
+		24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonDirector.m; sourceTree = "<group>"; };
+		24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBuilderTests.m; sourceTree = "<group>"; };
 		24D9587919FE972600C3F23E /* DPEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPEveningState.h; sourceTree = "<group>"; };
 		24D9587A19FE972600C3F23E /* DPEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPEveningState.m; sourceTree = "<group>"; };
 		24D9587C19FE979000C3F23E /* DPSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSleepingState.h; sourceTree = "<group>"; };
@@ -266,6 +278,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				24B2B06E1A067338001D74E0 /* Builder */,
 				24B2B0511A065FF5001D74E0 /* Bridge */,
 				24B2B0441A05E9D5001D74E0 /* TemplateMethod */,
 				245C997D19FE849100B0EBBA /* State */,
@@ -295,6 +308,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				24B2B0821A067DA0001D74E0 /* Builder */,
 				24B2B0651A066AF1001D74E0 /* Bridge */,
 				24B2B04E1A060A0C001D74E0 /* TemplateMethod */,
 				24D9588219FE99A900C3F23E /* State */,
@@ -448,6 +462,28 @@
 			path = Bridge;
 			sourceTree = "<group>";
 		};
+		24B2B06E1A067338001D74E0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24B2B06F1A06751A001D74E0 /* DPPersonBuilder.h */,
+				24B2B0761A067A87001D74E0 /* DPPersonThinBuilder.h */,
+				24B2B0771A067A87001D74E0 /* DPPersonThinBuilder.m */,
+				24B2B0791A067B4E001D74E0 /* DPPersonFatBuilder.h */,
+				24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */,
+				24B2B07F1A067BFE001D74E0 /* DPPersonDirector.h */,
+				24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		24B2B0821A067DA0001D74E0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		24D9588219FE99A900C3F23E /* State */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +608,7 @@
 				2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */,
 				2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */,
 				24B2B04D1A0609A8001D74E0 /* DPTestPaperB.m in Sources */,
+				24B2B07B1A067B4E001D74E0 /* DPPersonFatBuilder.m in Sources */,
 				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
 				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
 				24F8A7D419F402FC00F8BE19 /* DPCashReturn.m in Sources */,
@@ -606,6 +643,8 @@
 				24F8A7CE19F402B600F8BE19 /* DPCashNormal.m in Sources */,
 				2467F56319F3CB2700437073 /* DPUser.m in Sources */,
 				2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */,
+				24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */,
+				24B2B0781A067A87001D74E0 /* DPPersonThinBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */,
+				24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */,
 				24D9588419FE99B800C3F23E /* DPStateTests.m in Sources */,
 				24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */,
 				2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */,
