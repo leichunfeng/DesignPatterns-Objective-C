@@ -11,6 +11,8 @@
 		2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155019F3EA5900E9F749 /* DPSqlserverFactory.m */; };
 		2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155319F3EA6C00E9F749 /* DPAccessFactory.m */; };
 		2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */; };
+		2437B0441A08917C007CE0EF /* DPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437B0431A08917C007CE0EF /* DPSingleton.m */; };
+		2437B04B1A089B0C007CE0EF /* DPSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437B04A1A089B0C007CE0EF /* DPSingletonTests.m */; };
 		245C998119FE8B5E00B0EBBA /* DPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998019FE8B5E00B0EBBA /* DPWork.m */; };
 		245C998419FE8C7900B0EBBA /* DPForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998319FE8C7900B0EBBA /* DPForenoonState.m */; };
 		245C998719FE8F0A00B0EBBA /* DPNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998619FE8F0A00B0EBBA /* DPNoonState.m */; };
@@ -85,6 +87,9 @@
 		2407155219F3EA6C00E9F749 /* DPAccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccessFactory.h; sourceTree = "<group>"; };
 		2407155319F3EA6C00E9F749 /* DPAccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAccessFactory.m; sourceTree = "<group>"; };
 		2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAbstractFactoryTests.m; sourceTree = "<group>"; };
+		2437B0421A08917C007CE0EF /* DPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSingleton.h; sourceTree = "<group>"; };
+		2437B0431A08917C007CE0EF /* DPSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSingleton.m; sourceTree = "<group>"; };
+		2437B04A1A089B0C007CE0EF /* DPSingletonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSingletonTests.m; sourceTree = "<group>"; };
 		245C997E19FE8ADB00B0EBBA /* DPState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPState.h; sourceTree = "<group>"; };
 		245C997F19FE8B5E00B0EBBA /* DPWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWork.h; sourceTree = "<group>"; };
 		245C998019FE8B5E00B0EBBA /* DPWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPWork.m; sourceTree = "<group>"; };
@@ -223,6 +228,23 @@
 			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
+		2437B0411A089159007CE0EF /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				2437B0421A08917C007CE0EF /* DPSingleton.h */,
+				2437B0431A08917C007CE0EF /* DPSingleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		2437B0451A089ABA007CE0EF /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				2437B04A1A089B0C007CE0EF /* DPSingletonTests.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		245C997D19FE849100B0EBBA /* State */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +300,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				2437B0411A089159007CE0EF /* Singleton */,
 				24B2B06E1A067338001D74E0 /* Builder */,
 				24B2B0511A065FF5001D74E0 /* Bridge */,
 				24B2B0441A05E9D5001D74E0 /* TemplateMethod */,
@@ -308,6 +331,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				2437B0451A089ABA007CE0EF /* Singleton */,
 				24B2B0821A067DA0001D74E0 /* Builder */,
 				24B2B0651A066AF1001D74E0 /* Bridge */,
 				24B2B04E1A060A0C001D74E0 /* TemplateMethod */,
@@ -645,6 +669,7 @@
 				2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */,
 				24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */,
 				24B2B0781A067A87001D74E0 /* DPPersonThinBuilder.m in Sources */,
+				2437B0441A08917C007CE0EF /* DPSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */,
+				2437B04B1A089B0C007CE0EF /* DPSingletonTests.m in Sources */,
 				24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */,
 				24D9588419FE99B800C3F23E /* DPStateTests.m in Sources */,
 				24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */,
