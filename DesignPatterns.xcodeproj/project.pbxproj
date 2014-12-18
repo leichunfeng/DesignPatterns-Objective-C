@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		240447DB19FE939100FB315D /* DPAfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 240447DA19FE939100FB315D /* DPAfternoonState.m */; };
+		2406AAE81A43376800B2A359 /* DPPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAE71A43376800B2A359 /* DPPursuit.m */; };
+		2406AAEB1A4337D800B2A359 /* DPSchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAEA1A4337D800B2A359 /* DPSchoolGirl.m */; };
+		2406AAEE1A43399500B2A359 /* DPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAED1A43399500B2A359 /* DPProxy.m */; };
+		2406AAF11A433A8900B2A359 /* DPProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAF01A433A8900B2A359 /* DPProxyTests.m */; };
 		2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155019F3EA5900E9F749 /* DPSqlserverFactory.m */; };
 		2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155319F3EA6C00E9F749 /* DPAccessFactory.m */; };
 		2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */; };
@@ -89,6 +93,14 @@
 /* Begin PBXFileReference section */
 		240447D919FE939100FB315D /* DPAfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAfternoonState.h; sourceTree = "<group>"; };
 		240447DA19FE939100FB315D /* DPAfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAfternoonState.m; sourceTree = "<group>"; };
+		2406AAE51A43364900B2A359 /* DPGiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPGiveGift.h; sourceTree = "<group>"; };
+		2406AAE61A43376800B2A359 /* DPPursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPursuit.h; sourceTree = "<group>"; };
+		2406AAE71A43376800B2A359 /* DPPursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPursuit.m; sourceTree = "<group>"; };
+		2406AAE91A4337D800B2A359 /* DPSchoolGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSchoolGirl.h; sourceTree = "<group>"; };
+		2406AAEA1A4337D800B2A359 /* DPSchoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSchoolGirl.m; sourceTree = "<group>"; };
+		2406AAEC1A43399500B2A359 /* DPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPProxy.h; sourceTree = "<group>"; };
+		2406AAED1A43399500B2A359 /* DPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPProxy.m; sourceTree = "<group>"; };
+		2406AAF01A433A8900B2A359 /* DPProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPProxyTests.m; sourceTree = "<group>"; };
 		2407154F19F3EA5900E9F749 /* DPSqlserverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSqlserverFactory.h; sourceTree = "<group>"; };
 		2407155019F3EA5900E9F749 /* DPSqlserverFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSqlserverFactory.m; sourceTree = "<group>"; };
 		2407155219F3EA6C00E9F749 /* DPAccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccessFactory.h; sourceTree = "<group>"; };
@@ -240,6 +252,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2406AAE41A4335EE00B2A359 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				2406AAE51A43364900B2A359 /* DPGiveGift.h */,
+				2406AAE61A43376800B2A359 /* DPPursuit.h */,
+				2406AAE71A43376800B2A359 /* DPPursuit.m */,
+				2406AAE91A4337D800B2A359 /* DPSchoolGirl.h */,
+				2406AAEA1A4337D800B2A359 /* DPSchoolGirl.m */,
+				2406AAEC1A43399500B2A359 /* DPProxy.h */,
+				2406AAED1A43399500B2A359 /* DPProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		2406AAEF1A433A7D00B2A359 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				2406AAF01A433A8900B2A359 /* DPProxyTests.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		2407155519F3EB9100E9F749 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +354,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				2406AAE41A4335EE00B2A359 /* Proxy */,
 				24926FC01A432206006E188B /* Facade */,
 				2437B0411A089159007CE0EF /* Singleton */,
 				24B2B06E1A067338001D74E0 /* Builder */,
@@ -352,6 +387,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				2406AAEF1A433A7D00B2A359 /* Proxy */,
 				24926FD31A432717006E188B /* Facade */,
 				2437B0451A089ABA007CE0EF /* Singleton */,
 				24B2B0821A067DA0001D74E0 /* Builder */,
@@ -677,6 +713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2406AAEE1A43399500B2A359 /* DPProxy.m in Sources */,
 				2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */,
 				2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */,
 				2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */,
@@ -689,6 +726,7 @@
 				24B2B0611A0664E6001D74E0 /* DPHandsetBrandN.m in Sources */,
 				24B2B0571A066288001D74E0 /* DPHandsetBrand.m in Sources */,
 				2467F57D19F3D24B00437073 /* DPSqlserverDepartmentCrud.m in Sources */,
+				2406AAE81A43376800B2A359 /* DPPursuit.m in Sources */,
 				2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */,
 				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
 				24B2B0471A05F5C3001D74E0 /* DPTestPaper.m in Sources */,
@@ -699,6 +737,7 @@
 				24926FC31A432255006E188B /* DPStock1.m in Sources */,
 				2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */,
 				2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */,
+				2406AAEB1A4337D800B2A359 /* DPSchoolGirl.m in Sources */,
 				24B2B05B1A066366001D74E0 /* DPHandsetGame.m in Sources */,
 				2467F51C19F37ED800437073 /* DPAppDelegate.m in Sources */,
 				2467F55519F39EB700437073 /* DPVolunteer.m in Sources */,
@@ -733,6 +772,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */,
+				2406AAF11A433A8900B2A359 /* DPProxyTests.m in Sources */,
 				2437B04B1A089B0C007CE0EF /* DPSingletonTests.m in Sources */,
 				24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */,
 				24926FD51A43272A006E188B /* DPFacadeTests.m in Sources */,

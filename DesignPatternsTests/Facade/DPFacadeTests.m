@@ -12,24 +12,14 @@
 
 @interface DPFacadeTests : XCTestCase
 
-@property (strong, nonatomic) DPFund *fund;
-
 @end
 
 @implementation DPFacadeTests
 
-- (void)setUp {
-    [super setUp];
-    self.fund = [DPFund new];
-}
-
-- (void)tearDown {
-    [super tearDown];
-}
-
 - (void)testFacade {
-    [self.fund buyFund];  // 基金购买
-    [self.fund sellFund]; // 基金赎回
+    DPFund *fund = [DPFund new];
+    [fund buyFund];  // 基金购买
+    [fund sellFund]; // 基金赎回
 }
 
 @end
