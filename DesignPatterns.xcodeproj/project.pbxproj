@@ -73,6 +73,9 @@
 		24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */; };
 		24BD698A1A4477170007D525 /* DPPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* DPPrototypeTests.m */; };
 		24BD698E1A4479760007D525 /* DPResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD698D1A4479760007D525 /* DPResume.m */; };
+		24BD69911A453F830007D525 /* DPWorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69901A453F830007D525 /* DPWorkExperience.m */; };
+		24BD69941A454CAB0007D525 /* DPResumeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69931A454CAB0007D525 /* DPResumeDeepCopy.m */; };
+		24BD69971A454CDD0007D525 /* DPResumeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69961A454CDD0007D525 /* DPResumeShallowCopy.m */; };
 		24D9587B19FE972600C3F23E /* DPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587A19FE972600C3F23E /* DPEveningState.m */; };
 		24D9587E19FE979000C3F23E /* DPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587D19FE979000C3F23E /* DPSleepingState.m */; };
 		24D9588119FE979C00C3F23E /* DPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588019FE979C00C3F23E /* DPRestState.m */; };
@@ -217,6 +220,12 @@
 		24BD69891A4477170007D525 /* DPPrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPrototypeTests.m; sourceTree = "<group>"; };
 		24BD698C1A4479760007D525 /* DPResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResume.h; sourceTree = "<group>"; };
 		24BD698D1A4479760007D525 /* DPResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResume.m; sourceTree = "<group>"; };
+		24BD698F1A453F830007D525 /* DPWorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWorkExperience.h; sourceTree = "<group>"; };
+		24BD69901A453F830007D525 /* DPWorkExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPWorkExperience.m; sourceTree = "<group>"; };
+		24BD69921A454CAB0007D525 /* DPResumeDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResumeDeepCopy.h; sourceTree = "<group>"; };
+		24BD69931A454CAB0007D525 /* DPResumeDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResumeDeepCopy.m; sourceTree = "<group>"; };
+		24BD69951A454CDD0007D525 /* DPResumeShallowCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResumeShallowCopy.h; sourceTree = "<group>"; };
+		24BD69961A454CDD0007D525 /* DPResumeShallowCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResumeShallowCopy.m; sourceTree = "<group>"; };
 		24D9587919FE972600C3F23E /* DPEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPEveningState.h; sourceTree = "<group>"; };
 		24D9587A19FE972600C3F23E /* DPEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPEveningState.m; sourceTree = "<group>"; };
 		24D9587C19FE979000C3F23E /* DPSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSleepingState.h; sourceTree = "<group>"; };
@@ -613,6 +622,12 @@
 			children = (
 				24BD698C1A4479760007D525 /* DPResume.h */,
 				24BD698D1A4479760007D525 /* DPResume.m */,
+				24BD698F1A453F830007D525 /* DPWorkExperience.h */,
+				24BD69901A453F830007D525 /* DPWorkExperience.m */,
+				24BD69921A454CAB0007D525 /* DPResumeDeepCopy.h */,
+				24BD69931A454CAB0007D525 /* DPResumeDeepCopy.m */,
+				24BD69951A454CDD0007D525 /* DPResumeShallowCopy.h */,
+				24BD69961A454CDD0007D525 /* DPResumeShallowCopy.m */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -754,9 +769,12 @@
 				2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */,
 				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
 				24B2B0471A05F5C3001D74E0 /* DPTestPaper.m in Sources */,
+				24BD69941A454CAB0007D525 /* DPResumeDeepCopy.m in Sources */,
+				24BD69911A453F830007D525 /* DPWorkExperience.m in Sources */,
 				240447DB19FE939100FB315D /* DPAfternoonState.m in Sources */,
 				245C998719FE8F0A00B0EBBA /* DPNoonState.m in Sources */,
 				24B2B0641A066A9F001D74E0 /* DPHandsetBrandM.m in Sources */,
+				24BD69971A454CDD0007D525 /* DPResumeShallowCopy.m in Sources */,
 				24B2B05E1A0663ED001D74E0 /* DPHandsetAddressList.m in Sources */,
 				24926FC31A432255006E188B /* DPStock1.m in Sources */,
 				2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */,
