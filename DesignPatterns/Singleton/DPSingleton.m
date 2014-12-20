@@ -24,7 +24,7 @@ static DPSingleton *_sharedInstance = nil;
     return [self sharedInstance];
 }
 
-+ (instancetype)copyWithZone:(struct _NSZone *)zone {
++ (id)copyWithZone:(struct _NSZone *)zone {
     return [self sharedInstance];
 }
 

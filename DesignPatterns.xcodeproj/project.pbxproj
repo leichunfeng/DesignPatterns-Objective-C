@@ -71,6 +71,8 @@
 		24B2B07B1A067B4E001D74E0 /* DPPersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */; };
 		24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */; };
 		24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */; };
+		24BD698A1A4477170007D525 /* DPPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* DPPrototypeTests.m */; };
+		24BD698E1A4479760007D525 /* DPResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD698D1A4479760007D525 /* DPResume.m */; };
 		24D9587B19FE972600C3F23E /* DPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587A19FE972600C3F23E /* DPEveningState.m */; };
 		24D9587E19FE979000C3F23E /* DPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587D19FE979000C3F23E /* DPSleepingState.m */; };
 		24D9588119FE979C00C3F23E /* DPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588019FE979C00C3F23E /* DPRestState.m */; };
@@ -212,6 +214,9 @@
 		24B2B07F1A067BFE001D74E0 /* DPPersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonDirector.h; sourceTree = "<group>"; };
 		24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonDirector.m; sourceTree = "<group>"; };
 		24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBuilderTests.m; sourceTree = "<group>"; };
+		24BD69891A4477170007D525 /* DPPrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPrototypeTests.m; sourceTree = "<group>"; };
+		24BD698C1A4479760007D525 /* DPResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResume.h; sourceTree = "<group>"; };
+		24BD698D1A4479760007D525 /* DPResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResume.m; sourceTree = "<group>"; };
 		24D9587919FE972600C3F23E /* DPEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPEveningState.h; sourceTree = "<group>"; };
 		24D9587A19FE972600C3F23E /* DPEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPEveningState.m; sourceTree = "<group>"; };
 		24D9587C19FE979000C3F23E /* DPSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSleepingState.h; sourceTree = "<group>"; };
@@ -354,6 +359,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				24BD698B1A44795C0007D525 /* Prototype */,
 				2406AAE41A4335EE00B2A359 /* Proxy */,
 				24926FC01A432206006E188B /* Facade */,
 				2437B0411A089159007CE0EF /* Singleton */,
@@ -387,6 +393,7 @@
 		2467F52A19F37ED900437073 /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				24BD69861A44762C0007D525 /* Prototype */,
 				2406AAEF1A433A7D00B2A359 /* Proxy */,
 				24926FD31A432717006E188B /* Facade */,
 				2437B0451A089ABA007CE0EF /* Singleton */,
@@ -593,6 +600,23 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		24BD69861A44762C0007D525 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				24BD69891A4477170007D525 /* DPPrototypeTests.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		24BD698B1A44795C0007D525 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				24BD698C1A4479760007D525 /* DPResume.h */,
+				24BD698D1A4479760007D525 /* DPResume.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
 		24D9588219FE99A900C3F23E /* State */ = {
 			isa = PBXGroup;
 			children = (
@@ -763,6 +787,7 @@
 				24926FCF1A432586006E188B /* DPRealty1.m in Sources */,
 				24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */,
 				24B2B0781A067A87001D74E0 /* DPPersonThinBuilder.m in Sources */,
+				24BD698E1A4479760007D525 /* DPResume.m in Sources */,
 				2437B0441A08917C007CE0EF /* DPSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -781,6 +806,7 @@
 				2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */,
 				2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */,
 				2491E15F19F7F0AE009AC42F /* DPStrategyTests.m in Sources */,
+				24BD698A1A4477170007D525 /* DPPrototypeTests.m in Sources */,
 				2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
