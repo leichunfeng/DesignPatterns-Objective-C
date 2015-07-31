@@ -10,7 +10,7 @@
 
 @interface DPPersonDirector ()
 
-@property (strong, nonatomic) id <DPPersonBuilder> personBuilder;
+@property (strong, nonatomic) id<DPPersonBuilder> personBuilder;
 
 @end
 

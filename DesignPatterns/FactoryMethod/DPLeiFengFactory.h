@@ -14,6 +14,6 @@
 ///  工厂方法，用于创建雷锋实例
 ///
 ///  @return 雷锋实例
-- (id <DPLeiFeng>)createLeiFeng;
+- (id<DPLeiFeng>)createLeiFeng;
 
 @end

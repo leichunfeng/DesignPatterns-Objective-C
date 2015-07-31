@@ -14,7 +14,7 @@
 
 @implementation DPOperationFactory
 
-+ (id <DPOperation>)createOperation:(DPOperationType)operationType {
++ (id<DPOperation>)createOperation:(DPOperationType)operationType {
     switch (operationType) {
         case DPOperationTypeAdd:
             return [[DPOperationAdd alloc] init];

@@ -16,7 +16,7 @@
 ///  @param cashSuper 实现DPCashSuper协议的对象
 ///
 ///  @return 实例对象
-- (instancetype)initWithCashSuper:(id <DPCashSuper>)cashSuper;
+- (instancetype)initWithCashSuper:(id<DPCashSuper>)cashSuper;
 
 ///  获取计算结果
 ///

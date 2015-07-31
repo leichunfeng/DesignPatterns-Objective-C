@@ -19,20 +19,20 @@
 @implementation DPFactoryMethodTests
 
 - (void)testFactoryMethod {
-    id <DPLeiFengFactory> leiFengFactory = [[DPUndergraduateFactory alloc] init];
-//    id <DPLeiFengFactory> leiFengFactory = [[DPVolunteerFactory alloc] init];
+    id<DPLeiFengFactory> leiFengFactory = [[DPUndergraduateFactory alloc] init];
+//    id<DPLeiFengFactory> leiFengFactory = [[DPVolunteerFactory alloc] init];
     
-    id <DPLeiFeng> studentA = [leiFengFactory createLeiFeng];
+    id<DPLeiFeng> studentA = [leiFengFactory createLeiFeng];
     [studentA sweep];
     [studentA wash];
     [studentA buyRice];
     
-    id <DPLeiFeng> studentB = [leiFengFactory createLeiFeng];
+    id<DPLeiFeng> studentB = [leiFengFactory createLeiFeng];
     [studentB sweep];
     [studentB wash];
     [studentB buyRice];
     
-    id <DPLeiFeng> studentC = [leiFengFactory createLeiFeng];
+    id<DPLeiFeng> studentC = [leiFengFactory createLeiFeng];
     [studentC sweep];
     [studentC wash];
     [studentC buyRice];

@@ -20,7 +20,7 @@
 @implementation DPBuilderTests
 
 - (void)testBuilder {
-    id <DPPersonBuilder> personBuilder = [[DPPersonThinBuilder alloc] init];
+    id<DPPersonBuilder> personBuilder = [[DPPersonThinBuilder alloc] init];
     DPPersonDirector *personDirector = [[DPPersonDirector alloc] initWithPersonBuilder:personBuilder];
     [personDirector buildPerson];
     

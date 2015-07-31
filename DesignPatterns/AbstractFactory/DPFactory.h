@@ -15,11 +15,11 @@
 ///  创建对用户crud操作的对象
 ///
 ///  @return 对用户crud操作的对象
-- (id <DPUserCrud>)createUserCrud;
+- (id<DPUserCrud>)createUserCrud;
 
 ///  创建对部门crud操作的对象
 ///
 ///  @return 对部门crud操作的对象
-- (id <DPDepartmentCrud>)createDepartmentCrud;
+- (id<DPDepartmentCrud>)createDepartmentCrud;
 
 @end

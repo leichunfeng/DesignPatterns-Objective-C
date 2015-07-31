@@ -12,7 +12,7 @@
 @interface DPHandsetBrand : NSObject
 
 ///  手机软件
-@property (strong, nonatomic) id <DPHandsetSoft> handsetSoft;
+@property (strong, nonatomic) id<DPHandsetSoft> handsetSoft;
 
 ///  运行
 - (void)run;

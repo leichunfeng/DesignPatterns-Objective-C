@@ -16,7 +16,7 @@
 ///  @param personBuilder 建造者
 ///
 ///  @return 指挥者
-- (instancetype)initWithPersonBuilder:(id <DPPersonBuilder>)personBuilder;
+- (instancetype)initWithPersonBuilder:(id<DPPersonBuilder>)personBuilder;
 
 ///  建造小人
 - (void)buildPerson;

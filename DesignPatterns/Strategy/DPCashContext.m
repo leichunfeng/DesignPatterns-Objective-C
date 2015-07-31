@@ -10,13 +10,13 @@
 
 @interface DPCashContext ()
 
-@property (strong, nonatomic) id <DPCashSuper> cashSuper;
+@property (strong, nonatomic) id<DPCashSuper> cashSuper;
 
 @end
 
 @implementation DPCashContext
 
-- (instancetype)initWithCashSuper:(id <DPCashSuper>)cashSuper {
+- (instancetype)initWithCashSuper:(id<DPCashSuper>)cashSuper {
     self = [super init];
     if (self) {
         self.cashSuper = cashSuper;

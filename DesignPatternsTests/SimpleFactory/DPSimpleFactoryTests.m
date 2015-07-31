@@ -17,7 +17,7 @@
 @implementation DPSimpleFactoryTests
 
 - (void)testSimpleFactory {
-    id <DPOperation> operation = [DPOperationFactory createOperation:DPOperationTypeAdd];
+    id<DPOperation> operation = [DPOperationFactory createOperation:DPOperationTypeAdd];
     [operation setNumberA:100.0];
     [operation setNumberB:25.0];
     CGFloat result = [operation getResult];

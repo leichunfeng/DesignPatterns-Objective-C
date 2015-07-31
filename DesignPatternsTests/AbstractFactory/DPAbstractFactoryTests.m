@@ -23,14 +23,14 @@
     DPUser *user = [[DPUser alloc] init];
     DPDepartment *department = [[DPDepartment alloc] init];
     
-    id <DPFactory> factory = [[DPSqlserverFactory alloc] init];
-//    id <DPFactory> factory = [[DPAccessFactory alloc] init];
+    id<DPFactory> factory = [[DPSqlserverFactory alloc] init];
+//    id<DPFactory> factory = [[DPAccessFactory alloc] init];
     
-    id <DPUserCrud> userCrud = [factory createUserCrud];
+    id<DPUserCrud> userCrud = [factory createUserCrud];
     [userCrud insert:user];
     [userCrud getUser:1];
     
-    id <DPDepartmentCrud> departmentCrud = [factory createDepartmentCrud];
+    id<DPDepartmentCrud> departmentCrud = [factory createDepartmentCrud];
     [departmentCrud insert:department];
     [departmentCrud getDepartment:1];
 }

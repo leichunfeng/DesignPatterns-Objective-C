@@ -12,7 +12,7 @@
 @interface DPWork : NSObject
 
 ///  当前工作状态
-@property (strong, nonatomic) id <DPState> state;
+@property (strong, nonatomic) id<DPState> state;
 
 ///  `钟点`属性，状态转换的依据
 @property (nonatomic) CGFloat hour;

@@ -28,6 +28,6 @@ typedef NS_ENUM(NSUInteger, DPOperationType) {
 ///  @param operationType 运算类型
 ///
 ///  @return 运算实例
-+ (id <DPOperation>)createOperation:(DPOperationType)operationType;
++ (id<DPOperation>)createOperation:(DPOperationType)operationType;
 
 @end
