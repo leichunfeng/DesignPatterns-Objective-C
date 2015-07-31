@@ -8,36 +8,15 @@
 
 #import "DPSingleton.h"
 
-static DPSingleton *_sharedInstance = nil;
-
 @implementation DPSingleton
 
 + (instancetype)sharedInstance {
+    static DPSingleton *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sharedInstance = [[super allocWithZone:NULL] init];
+        sharedInstance = [[self alloc] init];
     });
-    return _sharedInstance;
-}
-
-+ (instancetype)allocWithZone:(struct _NSZone *)zone {
-    return [self sharedInstance];
-}
-
-+ (id)copyWithZone:(struct _NSZone *)zone {
-    return [self sharedInstance];
-}
-
-+ (id)mutableCopyWithZone:(struct _NSZone *)zone {
-    return [self sharedInstance];
-}
-
-- (id)copy {
-    return [self.class sharedInstance];
-}
-
-- (id)mutableCopy {
-    return [self.class sharedInstance];
+    return sharedInstance;
 }
 
 @end
