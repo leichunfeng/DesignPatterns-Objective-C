@@ -13,11 +13,11 @@
 @implementation DPAccessFactory
 
 - (id<DPUserCrud>)createUserCrud {
-    return [DPAccessUserCrud new];
+    return [[DPAccessUserCrud alloc] init];
 }
 
 - (id<DPDepartmentCrud>)createDepartmentCrud {
-    return [DPAccessDepartmentCrud new];
+    return [[DPAccessDepartmentCrud alloc] init];
 }
 
 @end

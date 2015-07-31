@@ -14,7 +14,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.state = [DPForenoonState new];
+        self.state = [[DPForenoonState alloc] init];
     }
     return self;
 }

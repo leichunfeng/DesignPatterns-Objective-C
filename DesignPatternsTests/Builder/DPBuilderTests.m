@@ -20,11 +20,11 @@
 @implementation DPBuilderTests
 
 - (void)testBuilder {
-    id <DPPersonBuilder> personBuilder = [DPPersonThinBuilder new];
+    id <DPPersonBuilder> personBuilder = [[DPPersonThinBuilder alloc] init];
     DPPersonDirector *personDirector = [[DPPersonDirector alloc] initWithPersonBuilder:personBuilder];
     [personDirector buildPerson];
     
-    personBuilder = [DPPersonFatBuilder new];
+    personBuilder = [[DPPersonFatBuilder alloc] init];
     personDirector = [[DPPersonDirector alloc] initWithPersonBuilder:personBuilder];
     [personDirector buildPerson];
 }

@@ -13,11 +13,11 @@
 @implementation DPSqlserverFactory
 
 - (id<DPUserCrud>)createUserCrud {
-    return [DPSqlserverUserCrud new];
+    return [[DPSqlserverUserCrud alloc] init];
 }
 
 - (id<DPDepartmentCrud>)createDepartmentCrud {
-    return [DPSqlserverDepartmentCrud new];
+    return [[DPSqlserverDepartmentCrud alloc] init];
 }
 
 @end

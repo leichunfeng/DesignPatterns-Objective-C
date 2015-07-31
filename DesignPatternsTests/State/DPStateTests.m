@@ -18,7 +18,7 @@
 
 - (void)testState {
     // 紧急项目
-    DPWork *work = [DPWork new];
+    DPWork *work = [[DPWork alloc] init];
     
     work.hour = 9;
     [work writeProgram];

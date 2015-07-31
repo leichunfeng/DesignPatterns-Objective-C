@@ -16,7 +16,7 @@
     if (work.hour < 13) {
         NSLog(@"当前时间：{%.f}点，饿了，午饭；犯困，午休", work.hour);
     } else {
-        work.state = [DPAfternoonState new];
+        work.state = [[DPAfternoonState alloc] init];
         [work writeProgram];
     }
 }

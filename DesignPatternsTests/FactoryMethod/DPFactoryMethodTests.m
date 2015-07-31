@@ -19,8 +19,8 @@
 @implementation DPFactoryMethodTests
 
 - (void)testFactoryMethod {
-    id <DPLeiFengFactory> leiFengFactory = [DPUndergraduateFactory new];
-//    id <DPLeiFengFactory> leiFengFactory = [DPVolunteerFactory new];
+    id <DPLeiFengFactory> leiFengFactory = [[DPUndergraduateFactory alloc] init];
+//    id <DPLeiFengFactory> leiFengFactory = [[DPVolunteerFactory alloc] init];
     
     id <DPLeiFeng> studentA = [leiFengFactory createLeiFeng];
     [studentA sweep];

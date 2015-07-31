@@ -17,13 +17,13 @@
 + (id <DPOperation>)createOperation:(DPOperationType)operationType {
     switch (operationType) {
         case DPOperationTypeAdd:
-            return [DPOperationAdd new];
+            return [[DPOperationAdd alloc] init];
         case DPOperationTypeSub:
-            return [DPOperationSub new];
+            return [[DPOperationSub alloc] init];
         case DPOperationTypeMul:
-            return [DPOperationMul new];
+            return [[DPOperationMul alloc] init];
         case DPOperationTypeDiv:
-            return [DPOperationDiv new];
+            return [[DPOperationDiv alloc] init];
         default:
             @throw [NSException exceptionWithName:NSInvalidArgumentException
                                            reason:[NSString stringWithFormat:@"The given operationType `%lu` does not correspond to any known DPOperationType.", (unsigned long)operationType]

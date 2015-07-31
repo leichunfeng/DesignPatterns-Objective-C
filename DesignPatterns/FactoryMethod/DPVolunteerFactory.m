@@ -12,7 +12,7 @@
 @implementation DPVolunteerFactory
 
 - (id<DPLeiFeng>)createLeiFeng {
-    return [DPVolunteer new];
+    return [[DPVolunteer alloc] init];
 }
 
 @end

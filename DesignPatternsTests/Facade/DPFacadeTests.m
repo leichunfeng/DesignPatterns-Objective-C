@@ -17,7 +17,7 @@
 @implementation DPFacadeTests
 
 - (void)testFacade {
-    DPFund *fund = [DPFund new];
+    DPFund *fund = [[DPFund alloc] init];
     [fund buyFund];  // 基金购买
     [fund sellFund]; // 基金赎回
 }

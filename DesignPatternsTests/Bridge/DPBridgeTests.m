@@ -22,20 +22,20 @@
 @implementation DPBridgeTests
 
 - (void)testBridge {
-    DPHandsetBrand *handsetBrand = [DPHandsetBrandM new];
+    DPHandsetBrand *handsetBrand = [[DPHandsetBrandM alloc] init];
     
-    handsetBrand.handsetSoft = [DPHandsetGame new];
+    handsetBrand.handsetSoft = [[DPHandsetGame alloc] init];
     [handsetBrand run];
     
-    handsetBrand.handsetSoft = [DPHandsetAddressList new];
+    handsetBrand.handsetSoft = [[DPHandsetAddressList alloc] init];
     [handsetBrand run];
     
-    handsetBrand = [DPHandsetBrandN new];
+    handsetBrand = [[DPHandsetBrandN alloc] init];
     
-    handsetBrand.handsetSoft = [DPHandsetGame new];
+    handsetBrand.handsetSoft = [[DPHandsetGame alloc] init];
     [handsetBrand run];
     
-    handsetBrand.handsetSoft = [DPHandsetAddressList new];
+    handsetBrand.handsetSoft = [[DPHandsetAddressList alloc] init];
     [handsetBrand run];
 }
 

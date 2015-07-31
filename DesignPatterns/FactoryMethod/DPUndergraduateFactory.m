@@ -12,7 +12,7 @@
 @implementation DPUndergraduateFactory
 
 - (id<DPLeiFeng>)createLeiFeng {
-    return [DPUndergraduate new];
+    return [[DPUndergraduate alloc] init];
 }
 
 @end

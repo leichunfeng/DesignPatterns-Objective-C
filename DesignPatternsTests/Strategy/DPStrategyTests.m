@@ -25,7 +25,7 @@
     CGFloat price  = 100.0;
     CGFloat number = 25;
     
-    DPCashContext *cashContext = [[DPCashContext alloc] initWithCashSuper:[DPCashNormal new]];
+    DPCashContext *cashContext = [[DPCashContext alloc] initWithCashSuper:[[DPCashNormal alloc] init]];
     result = [cashContext getResult:price*number];
     NSLog(@"result: %f", result);
     XCTAssertTrue(result == 2500);

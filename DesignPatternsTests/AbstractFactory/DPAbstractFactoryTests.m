@@ -20,11 +20,11 @@
 @implementation DPAbstractFactoryTests
 
 - (void)testAbstractFactory {
-    DPUser *user = [DPUser new];
-    DPDepartment *department = [DPDepartment new];
+    DPUser *user = [[DPUser alloc] init];
+    DPDepartment *department = [[DPDepartment alloc] init];
     
-    id <DPFactory> factory = [DPSqlserverFactory new];
-//    id <DPFactory> factory = [DPAccessFactory new];
+    id <DPFactory> factory = [[DPSqlserverFactory alloc] init];
+//    id <DPFactory> factory = [[DPAccessFactory alloc] init];
     
     id <DPUserCrud> userCrud = [factory createUserCrud];
     [userCrud insert:user];

@@ -14,7 +14,7 @@
     self = [super init];
     if (self) {
         self.name = name;
-        self.workExperience = [DPWorkExperience new];
+        self.workExperience = [[DPWorkExperience alloc] init];
     }
     return self;
 }

@@ -16,7 +16,7 @@
     if (work.hour < 12) {
         NSLog(@"当前时间：{%.f}点，上午工作，精神百倍", work.hour);
     } else {
-        work.state = [DPNoonState new];
+        work.state = [[DPNoonState alloc] init];
         [work writeProgram];
     }
 }

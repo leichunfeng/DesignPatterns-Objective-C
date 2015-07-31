@@ -28,11 +28,11 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.stock1 = [DPStock1 new];
-        self.stock2 = [DPStock2 new];
-        self.stock3 = [DPStock3 new];
-        self.nationalDebt1 = [DPNationalDebt1 new];
-        self.realty1 = [DPRealty1 new];
+        self.stock1 = [[DPStock1 alloc] init];
+        self.stock2 = [[DPStock2 alloc] init];
+        self.stock3 = [[DPStock3 alloc] init];
+        self.nationalDebt1 = [[DPNationalDebt1 alloc] init];
+        self.realty1 = [[DPRealty1 alloc] init];
     }
     return self;
 }

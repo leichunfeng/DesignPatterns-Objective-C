@@ -18,7 +18,7 @@
 @implementation DPProxyTests
 
 - (void)testProxy {
-    DPSchoolGirl *schoolGirl = [DPSchoolGirl new];
+    DPSchoolGirl *schoolGirl = [[DPSchoolGirl alloc] init];
     schoolGirl.name = @"李娇娇";
     
     DPProxy *proxy = [[DPProxy alloc] initWithSchoolGirl:schoolGirl];
