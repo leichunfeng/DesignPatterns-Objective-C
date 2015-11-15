@@ -7,83 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240447DB19FE939100FB315D /* DPAfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 240447DA19FE939100FB315D /* DPAfternoonState.m */; };
-		2406AAE81A43376800B2A359 /* DPPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAE71A43376800B2A359 /* DPPursuit.m */; };
-		2406AAEB1A4337D800B2A359 /* DPSchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAEA1A4337D800B2A359 /* DPSchoolGirl.m */; };
-		2406AAEE1A43399500B2A359 /* DPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAED1A43399500B2A359 /* DPProxy.m */; };
-		2406AAF11A433A8900B2A359 /* DPProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAF01A433A8900B2A359 /* DPProxyTests.m */; };
-		2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155019F3EA5900E9F749 /* DPSqlserverFactory.m */; };
-		2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155319F3EA6C00E9F749 /* DPAccessFactory.m */; };
-		2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */; };
-		2437B0441A08917C007CE0EF /* DPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437B0431A08917C007CE0EF /* DPSingleton.m */; };
-		2437B04B1A089B0C007CE0EF /* DPSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437B04A1A089B0C007CE0EF /* DPSingletonTests.m */; };
-		245C998119FE8B5E00B0EBBA /* DPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998019FE8B5E00B0EBBA /* DPWork.m */; };
-		245C998419FE8C7900B0EBBA /* DPForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998319FE8C7900B0EBBA /* DPForenoonState.m */; };
-		245C998719FE8F0A00B0EBBA /* DPNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998619FE8F0A00B0EBBA /* DPNoonState.m */; };
-		245CB3C21BF86C5D0006D277 /* DPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3C11BF86C5D0006D277 /* DPOperation.m */; };
+		2406AAF11A433A8900B2A359 /* ProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2406AAF01A433A8900B2A359 /* ProxyTests.m */; };
+		2407155719F3EBB500E9F749 /* AbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2407155619F3EBB500E9F749 /* AbstractFactoryTests.m */; };
+		2437B04B1A089B0C007CE0EF /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2437B04A1A089B0C007CE0EF /* SingletonTests.m */; };
+		245CB44D1BF8A28C0006D277 /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3CC1BF8A28C0006D277 /* AccessDepartment.m */; };
+		245CB44E1BF8A28C0006D277 /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3CE1BF8A28C0006D277 /* AccessFactory.m */; };
+		245CB44F1BF8A28C0006D277 /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3D01BF8A28C0006D277 /* AccessUser.m */; };
+		245CB4501BF8A28C0006D277 /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3D31BF8A28C0006D277 /* Department.m */; };
+		245CB4511BF8A28C0006D277 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3D51BF8A28C0006D277 /* User.m */; };
+		245CB4521BF8A28C0006D277 /* SQLServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3DA1BF8A28C0006D277 /* SQLServerDepartment.m */; };
+		245CB4531BF8A28C0006D277 /* SQLServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3DC1BF8A28C0006D277 /* SQLServerFactory.m */; };
+		245CB4541BF8A28C0006D277 /* SQLServerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3DE1BF8A28C0006D277 /* SQLServerUser.m */; };
+		245CB4551BF8A28C0006D277 /* HandsetAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3E11BF8A28C0006D277 /* HandsetAddressList.m */; };
+		245CB4561BF8A28C0006D277 /* HandsetBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3E31BF8A28C0006D277 /* HandsetBrand.m */; };
+		245CB4571BF8A28C0006D277 /* HandsetBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3E51BF8A28C0006D277 /* HandsetBrandM.m */; };
+		245CB4581BF8A28C0006D277 /* HandsetBrandN.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3E71BF8A28C0006D277 /* HandsetBrandN.m */; };
+		245CB4591BF8A28C0006D277 /* HandsetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3E91BF8A28C0006D277 /* HandsetGame.m */; };
+		245CB45A1BF8A28C0006D277 /* PersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3EE1BF8A28C0006D277 /* PersonDirector.m */; };
+		245CB45B1BF8A28C0006D277 /* PersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3F01BF8A28C0006D277 /* PersonFatBuilder.m */; };
+		245CB45C1BF8A28C0006D277 /* PersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3F21BF8A28C0006D277 /* PersonThinBuilder.m */; };
+		245CB45D1BF8A28C0006D277 /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3F51BF8A28C0006D277 /* Fund.m */; };
+		245CB45E1BF8A28C0006D277 /* NationalDebt1.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3F71BF8A28C0006D277 /* NationalDebt1.m */; };
+		245CB45F1BF8A28C0006D277 /* Realty1.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3F91BF8A28C0006D277 /* Realty1.m */; };
+		245CB4601BF8A28C0006D277 /* Stock1.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3FB1BF8A28C0006D277 /* Stock1.m */; };
+		245CB4611BF8A28C0006D277 /* Stock2.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3FD1BF8A28C0006D277 /* Stock2.m */; };
+		245CB4621BF8A28C0006D277 /* Stock3.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3FF1BF8A28C0006D277 /* Stock3.m */; };
+		245CB4631BF8A28C0006D277 /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4041BF8A28C0006D277 /* Undergraduate.m */; };
+		245CB4641BF8A28C0006D277 /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4061BF8A28C0006D277 /* UndergraduateFactory.m */; };
+		245CB4651BF8A28C0006D277 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4081BF8A28C0006D277 /* Volunteer.m */; };
+		245CB4661BF8A28C0006D277 /* VolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB40A1BF8A28C0006D277 /* VolunteerFactory.m */; };
+		245CB4671BF8A28C0006D277 /* Resume.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB40D1BF8A28C0006D277 /* Resume.m */; };
+		245CB4681BF8A28C0006D277 /* ResumeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB40F1BF8A28C0006D277 /* ResumeDeepCopy.m */; };
+		245CB4691BF8A28C0006D277 /* ResumeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4111BF8A28C0006D277 /* ResumeShallowCopy.m */; };
+		245CB46A1BF8A28C0006D277 /* WorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4131BF8A28C0006D277 /* WorkExperience.m */; };
+		245CB46B1BF8A28C0006D277 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4171BF8A28C0006D277 /* Proxy.m */; };
+		245CB46C1BF8A28C0006D277 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4191BF8A28C0006D277 /* Pursuit.m */; };
+		245CB46D1BF8A28C0006D277 /* SchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB41B1BF8A28C0006D277 /* SchoolGirl.m */; };
+		245CB46E1BF8A28C0006D277 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB41E1BF8A28C0006D277 /* Operation.m */; };
+		245CB46F1BF8A28C0006D277 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4201BF8A28C0006D277 /* OperationAdd.m */; };
+		245CB4701BF8A28C0006D277 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4221BF8A28C0006D277 /* OperationDiv.m */; };
+		245CB4711BF8A28C0006D277 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4241BF8A28C0006D277 /* OperationFactory.m */; };
+		245CB4721BF8A28C0006D277 /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4261BF8A28C0006D277 /* OperationMul.m */; };
+		245CB4731BF8A28C0006D277 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4281BF8A28C0006D277 /* OperationSub.m */; };
+		245CB4741BF8A28C0006D277 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB42B1BF8A28C0006D277 /* Singleton.m */; };
+		245CB4751BF8A28C0006D277 /* AfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB42E1BF8A28C0006D277 /* AfternoonState.m */; };
+		245CB4761BF8A28C0006D277 /* EveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4301BF8A28C0006D277 /* EveningState.m */; };
+		245CB4771BF8A28C0006D277 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4321BF8A28C0006D277 /* ForenoonState.m */; };
+		245CB4781BF8A28C0006D277 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4341BF8A28C0006D277 /* NoonState.m */; };
+		245CB4791BF8A28C0006D277 /* RestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4361BF8A28C0006D277 /* RestState.m */; };
+		245CB47A1BF8A28C0006D277 /* SleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4381BF8A28C0006D277 /* SleepingState.m */; };
+		245CB47B1BF8A28C0006D277 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB43B1BF8A28C0006D277 /* Work.m */; };
+		245CB47C1BF8A28C0006D277 /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB43E1BF8A28C0006D277 /* CashContext.m */; };
+		245CB47D1BF8A28C0006D277 /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4401BF8A28C0006D277 /* CashNormal.m */; };
+		245CB47E1BF8A28C0006D277 /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4421BF8A28C0006D277 /* CashRebate.m */; };
+		245CB47F1BF8A28C0006D277 /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4441BF8A28C0006D277 /* CashReturn.m */; };
+		245CB4801BF8A28C0006D277 /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB4481BF8A28C0006D277 /* TestPaper.m */; };
+		245CB4811BF8A28C0006D277 /* TestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB44A1BF8A28C0006D277 /* TestPaperA.m */; };
+		245CB4821BF8A28C0006D277 /* TestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB44C1BF8A28C0006D277 /* TestPaperB.m */; };
 		2467F50C19F37ED800437073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50B19F37ED800437073 /* Foundation.framework */; };
 		2467F50E19F37ED800437073 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50D19F37ED800437073 /* CoreGraphics.framework */; };
 		2467F51019F37ED800437073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50F19F37ED800437073 /* UIKit.framework */; };
 		2467F51619F37ED800437073 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2467F51419F37ED800437073 /* InfoPlist.strings */; };
 		2467F51819F37ED800437073 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F51719F37ED800437073 /* main.m */; };
-		2467F51C19F37ED800437073 /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F51B19F37ED800437073 /* DPAppDelegate.m */; };
+		2467F51C19F37ED800437073 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F51B19F37ED800437073 /* AppDelegate.m */; };
 		2467F51E19F37ED800437073 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2467F51D19F37ED800437073 /* Images.xcassets */; };
 		2467F52519F37ED900437073 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F52419F37ED900437073 /* XCTest.framework */; };
 		2467F52619F37ED900437073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50B19F37ED800437073 /* Foundation.framework */; };
 		2467F52719F37ED900437073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50F19F37ED800437073 /* UIKit.framework */; };
 		2467F52F19F37ED900437073 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2467F52D19F37ED900437073 /* InfoPlist.strings */; };
-		2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F53D19F37EEF00437073 /* DPOperationAdd.m */; };
-		2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F53F19F37EEF00437073 /* DPOperationDiv.m */; };
-		2467F54819F37EEF00437073 /* DPOperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54119F37EEF00437073 /* DPOperationFactory.m */; };
-		2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54319F37EEF00437073 /* DPOperationMul.m */; };
-		2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54519F37EEF00437073 /* DPOperationSub.m */; };
-		2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54C19F3819200437073 /* DPSimpleFactoryTests.m */; };
-		2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55119F39E7C00437073 /* DPUndergraduate.m */; };
-		2467F55519F39EB700437073 /* DPVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55419F39EB700437073 /* DPVolunteer.m */; };
-		2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */; };
-		2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55B19F3A11100437073 /* DPVolunteerFactory.m */; };
-		2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */; };
-		2467F56319F3CB2700437073 /* DPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F56219F3CB2700437073 /* DPUser.m */; };
-		2467F56619F3CB7000437073 /* DPDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F56519F3CB7000437073 /* DPDepartment.m */; };
-		2467F57619F3D1C700437073 /* DPSqlserverUserCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57519F3D1C700437073 /* DPSqlserverUserCrud.m */; };
-		2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57819F3D1DE00437073 /* DPAccessUserCrud.m */; };
-		2467F57D19F3D24B00437073 /* DPSqlserverDepartmentCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57C19F3D24B00437073 /* DPSqlserverDepartmentCrud.m */; };
-		2467F58019F3D25A00437073 /* DPAccessDepartmentCrud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F57F19F3D25A00437073 /* DPAccessDepartmentCrud.m */; };
-		2491E15F19F7F0AE009AC42F /* DPStrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2491E15E19F7F0AE009AC42F /* DPStrategyTests.m */; };
-		2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2491E16219F7F20E009AC42F /* DPCashContext.m */; };
-		24926FC31A432255006E188B /* DPStock1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FC21A432255006E188B /* DPStock1.m */; };
-		24926FC61A43247A006E188B /* DPStock2.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FC51A43247A006E188B /* DPStock2.m */; };
-		24926FC91A4324A9006E188B /* DPStock3.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FC81A4324A9006E188B /* DPStock3.m */; };
-		24926FCC1A43250A006E188B /* DPNationalDebt1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FCB1A43250A006E188B /* DPNationalDebt1.m */; };
-		24926FCF1A432586006E188B /* DPRealty1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FCE1A432586006E188B /* DPRealty1.m */; };
-		24926FD21A4325C4006E188B /* DPFund.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FD11A4325C4006E188B /* DPFund.m */; };
-		24926FD51A43272A006E188B /* DPFacadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FD41A43272A006E188B /* DPFacadeTests.m */; };
-		24B2B0471A05F5C3001D74E0 /* DPTestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0461A05F5C3001D74E0 /* DPTestPaper.m */; };
-		24B2B04A1A06007C001D74E0 /* DPTestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0491A06007C001D74E0 /* DPTestPaperA.m */; };
-		24B2B04D1A0609A8001D74E0 /* DPTestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B04C1A0609A8001D74E0 /* DPTestPaperB.m */; };
-		24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B04F1A060A28001D74E0 /* DPTemplateMethodTests.m */; };
-		24B2B0571A066288001D74E0 /* DPHandsetBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0561A066288001D74E0 /* DPHandsetBrand.m */; };
-		24B2B05B1A066366001D74E0 /* DPHandsetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B05A1A066366001D74E0 /* DPHandsetGame.m */; };
-		24B2B05E1A0663ED001D74E0 /* DPHandsetAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B05D1A0663ED001D74E0 /* DPHandsetAddressList.m */; };
-		24B2B0611A0664E6001D74E0 /* DPHandsetBrandN.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */; };
-		24B2B0641A066A9F001D74E0 /* DPHandsetBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */; };
-		24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */; };
-		24B2B0781A067A87001D74E0 /* DPPersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0771A067A87001D74E0 /* DPPersonThinBuilder.m */; };
-		24B2B07B1A067B4E001D74E0 /* DPPersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */; };
-		24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */; };
-		24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */; };
-		24BD698A1A4477170007D525 /* DPPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* DPPrototypeTests.m */; };
-		24BD698E1A4479760007D525 /* DPResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD698D1A4479760007D525 /* DPResume.m */; };
-		24BD69911A453F830007D525 /* DPWorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69901A453F830007D525 /* DPWorkExperience.m */; };
-		24BD69941A454CAB0007D525 /* DPResumeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69931A454CAB0007D525 /* DPResumeDeepCopy.m */; };
-		24BD69971A454CDD0007D525 /* DPResumeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69961A454CDD0007D525 /* DPResumeShallowCopy.m */; };
-		24D9587B19FE972600C3F23E /* DPEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587A19FE972600C3F23E /* DPEveningState.m */; };
-		24D9587E19FE979000C3F23E /* DPSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9587D19FE979000C3F23E /* DPSleepingState.m */; };
-		24D9588119FE979C00C3F23E /* DPRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588019FE979C00C3F23E /* DPRestState.m */; };
-		24D9588419FE99B800C3F23E /* DPStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* DPStateTests.m */; };
-		24F8A7CE19F402B600F8BE19 /* DPCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8A7CD19F402B600F8BE19 /* DPCashNormal.m */; };
-		24F8A7D119F402C400F8BE19 /* DPCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8A7D019F402C400F8BE19 /* DPCashRebate.m */; };
-		24F8A7D419F402FC00F8BE19 /* DPCashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8A7D319F402FC00F8BE19 /* DPCashReturn.m */; };
+		2467F54D19F3819200437073 /* SimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F54C19F3819200437073 /* SimpleFactoryTests.m */; };
+		2467F55F19F3A1F400437073 /* FactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467F55E19F3A1F400437073 /* FactoryMethodTests.m */; };
+		2491E15F19F7F0AE009AC42F /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2491E15E19F7F0AE009AC42F /* StrategyTests.m */; };
+		24926FD51A43272A006E188B /* FacadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24926FD41A43272A006E188B /* FacadeTests.m */; };
+		24B2B0501A060A28001D74E0 /* TemplateMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B04F1A060A28001D74E0 /* TemplateMethodTests.m */; };
+		24B2B06D1A066B81001D74E0 /* BridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B06C1A066B81001D74E0 /* BridgeTests.m */; };
+		24B2B0841A067DB1001D74E0 /* BuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* BuilderTests.m */; };
+		24BD698A1A4477170007D525 /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* PrototypeTests.m */; };
+		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,33 +97,127 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		240447D919FE939100FB315D /* DPAfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAfternoonState.h; sourceTree = "<group>"; };
-		240447DA19FE939100FB315D /* DPAfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAfternoonState.m; sourceTree = "<group>"; };
-		2406AAE51A43364900B2A359 /* DPGiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPGiveGift.h; sourceTree = "<group>"; };
-		2406AAE61A43376800B2A359 /* DPPursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPursuit.h; sourceTree = "<group>"; };
-		2406AAE71A43376800B2A359 /* DPPursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPursuit.m; sourceTree = "<group>"; };
-		2406AAE91A4337D800B2A359 /* DPSchoolGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSchoolGirl.h; sourceTree = "<group>"; };
-		2406AAEA1A4337D800B2A359 /* DPSchoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSchoolGirl.m; sourceTree = "<group>"; };
-		2406AAEC1A43399500B2A359 /* DPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPProxy.h; sourceTree = "<group>"; };
-		2406AAED1A43399500B2A359 /* DPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPProxy.m; sourceTree = "<group>"; };
-		2406AAF01A433A8900B2A359 /* DPProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPProxyTests.m; sourceTree = "<group>"; };
-		2407154F19F3EA5900E9F749 /* DPSqlserverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSqlserverFactory.h; sourceTree = "<group>"; };
-		2407155019F3EA5900E9F749 /* DPSqlserverFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSqlserverFactory.m; sourceTree = "<group>"; };
-		2407155219F3EA6C00E9F749 /* DPAccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccessFactory.h; sourceTree = "<group>"; };
-		2407155319F3EA6C00E9F749 /* DPAccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAccessFactory.m; sourceTree = "<group>"; };
-		2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAbstractFactoryTests.m; sourceTree = "<group>"; };
-		2437B0421A08917C007CE0EF /* DPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSingleton.h; sourceTree = "<group>"; };
-		2437B0431A08917C007CE0EF /* DPSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSingleton.m; sourceTree = "<group>"; };
-		2437B04A1A089B0C007CE0EF /* DPSingletonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSingletonTests.m; sourceTree = "<group>"; };
-		245C997E19FE8ADB00B0EBBA /* DPState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPState.h; sourceTree = "<group>"; };
-		245C997F19FE8B5E00B0EBBA /* DPWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWork.h; sourceTree = "<group>"; };
-		245C998019FE8B5E00B0EBBA /* DPWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPWork.m; sourceTree = "<group>"; };
-		245C998219FE8C7900B0EBBA /* DPForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPForenoonState.h; sourceTree = "<group>"; };
-		245C998319FE8C7900B0EBBA /* DPForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPForenoonState.m; sourceTree = "<group>"; };
-		245C998519FE8F0A00B0EBBA /* DPNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNoonState.h; sourceTree = "<group>"; };
-		245C998619FE8F0A00B0EBBA /* DPNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPNoonState.m; sourceTree = "<group>"; };
-		245CB3C01BF86C5D0006D277 /* DPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperation.h; sourceTree = "<group>"; };
-		245CB3C11BF86C5D0006D277 /* DPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperation.m; sourceTree = "<group>"; };
+		2406AAF01A433A8900B2A359 /* ProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyTests.m; sourceTree = "<group>"; };
+		2407155619F3EBB500E9F749 /* AbstractFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryTests.m; sourceTree = "<group>"; };
+		2437B04A1A089B0C007CE0EF /* SingletonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
+		245CB3CB1BF8A28C0006D277 /* AccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
+		245CB3CC1BF8A28C0006D277 /* AccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
+		245CB3CD1BF8A28C0006D277 /* AccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
+		245CB3CE1BF8A28C0006D277 /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
+		245CB3CF1BF8A28C0006D277 /* AccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessUser.h; sourceTree = "<group>"; };
+		245CB3D01BF8A28C0006D277 /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
+		245CB3D21BF8A28C0006D277 /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		245CB3D31BF8A28C0006D277 /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		245CB3D41BF8A28C0006D277 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		245CB3D51BF8A28C0006D277 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		245CB3D61BF8A28C0006D277 /* IDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDepartment.h; sourceTree = "<group>"; };
+		245CB3D71BF8A28C0006D277 /* IFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFactory.h; sourceTree = "<group>"; };
+		245CB3D81BF8A28C0006D277 /* IUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUser.h; sourceTree = "<group>"; };
+		245CB3D91BF8A28C0006D277 /* SQLServerDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerDepartment.h; sourceTree = "<group>"; };
+		245CB3DA1BF8A28C0006D277 /* SQLServerDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerDepartment.m; sourceTree = "<group>"; };
+		245CB3DB1BF8A28C0006D277 /* SQLServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerFactory.h; sourceTree = "<group>"; };
+		245CB3DC1BF8A28C0006D277 /* SQLServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerFactory.m; sourceTree = "<group>"; };
+		245CB3DD1BF8A28C0006D277 /* SQLServerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerUser.h; sourceTree = "<group>"; };
+		245CB3DE1BF8A28C0006D277 /* SQLServerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerUser.m; sourceTree = "<group>"; };
+		245CB3E01BF8A28C0006D277 /* HandsetAddressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandsetAddressList.h; sourceTree = "<group>"; };
+		245CB3E11BF8A28C0006D277 /* HandsetAddressList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandsetAddressList.m; sourceTree = "<group>"; };
+		245CB3E21BF8A28C0006D277 /* HandsetBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandsetBrand.h; sourceTree = "<group>"; };
+		245CB3E31BF8A28C0006D277 /* HandsetBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandsetBrand.m; sourceTree = "<group>"; };
+		245CB3E41BF8A28C0006D277 /* HandsetBrandM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandsetBrandM.h; sourceTree = "<group>"; };
+		245CB3E51BF8A28C0006D277 /* HandsetBrandM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandsetBrandM.m; sourceTree = "<group>"; };
+		245CB3E61BF8A28C0006D277 /* HandsetBrandN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandsetBrandN.h; sourceTree = "<group>"; };
+		245CB3E71BF8A28C0006D277 /* HandsetBrandN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandsetBrandN.m; sourceTree = "<group>"; };
+		245CB3E81BF8A28C0006D277 /* HandsetGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandsetGame.h; sourceTree = "<group>"; };
+		245CB3E91BF8A28C0006D277 /* HandsetGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandsetGame.m; sourceTree = "<group>"; };
+		245CB3EA1BF8A28C0006D277 /* HandsetSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandsetSoft.h; sourceTree = "<group>"; };
+		245CB3EC1BF8A28C0006D277 /* PersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBuilder.h; sourceTree = "<group>"; };
+		245CB3ED1BF8A28C0006D277 /* PersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDirector.h; sourceTree = "<group>"; };
+		245CB3EE1BF8A28C0006D277 /* PersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDirector.m; sourceTree = "<group>"; };
+		245CB3EF1BF8A28C0006D277 /* PersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonFatBuilder.h; sourceTree = "<group>"; };
+		245CB3F01BF8A28C0006D277 /* PersonFatBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonFatBuilder.m; sourceTree = "<group>"; };
+		245CB3F11BF8A28C0006D277 /* PersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonThinBuilder.h; sourceTree = "<group>"; };
+		245CB3F21BF8A28C0006D277 /* PersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonThinBuilder.m; sourceTree = "<group>"; };
+		245CB3F41BF8A28C0006D277 /* Fund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
+		245CB3F51BF8A28C0006D277 /* Fund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
+		245CB3F61BF8A28C0006D277 /* NationalDebt1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NationalDebt1.h; sourceTree = "<group>"; };
+		245CB3F71BF8A28C0006D277 /* NationalDebt1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NationalDebt1.m; sourceTree = "<group>"; };
+		245CB3F81BF8A28C0006D277 /* Realty1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Realty1.h; sourceTree = "<group>"; };
+		245CB3F91BF8A28C0006D277 /* Realty1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Realty1.m; sourceTree = "<group>"; };
+		245CB3FA1BF8A28C0006D277 /* Stock1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock1.h; sourceTree = "<group>"; };
+		245CB3FB1BF8A28C0006D277 /* Stock1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock1.m; sourceTree = "<group>"; };
+		245CB3FC1BF8A28C0006D277 /* Stock2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock2.h; sourceTree = "<group>"; };
+		245CB3FD1BF8A28C0006D277 /* Stock2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock2.m; sourceTree = "<group>"; };
+		245CB3FE1BF8A28C0006D277 /* Stock3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock3.h; sourceTree = "<group>"; };
+		245CB3FF1BF8A28C0006D277 /* Stock3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock3.m; sourceTree = "<group>"; };
+		245CB4011BF8A28C0006D277 /* LeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
+		245CB4021BF8A28C0006D277 /* LeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFengFactory.h; sourceTree = "<group>"; };
+		245CB4031BF8A28C0006D277 /* Undergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
+		245CB4041BF8A28C0006D277 /* Undergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
+		245CB4051BF8A28C0006D277 /* UndergraduateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndergraduateFactory.h; sourceTree = "<group>"; };
+		245CB4061BF8A28C0006D277 /* UndergraduateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndergraduateFactory.m; sourceTree = "<group>"; };
+		245CB4071BF8A28C0006D277 /* Volunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volunteer.h; sourceTree = "<group>"; };
+		245CB4081BF8A28C0006D277 /* Volunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer.m; sourceTree = "<group>"; };
+		245CB4091BF8A28C0006D277 /* VolunteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerFactory.h; sourceTree = "<group>"; };
+		245CB40A1BF8A28C0006D277 /* VolunteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerFactory.m; sourceTree = "<group>"; };
+		245CB40C1BF8A28C0006D277 /* Resume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resume.h; sourceTree = "<group>"; };
+		245CB40D1BF8A28C0006D277 /* Resume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resume.m; sourceTree = "<group>"; };
+		245CB40E1BF8A28C0006D277 /* ResumeDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeDeepCopy.h; sourceTree = "<group>"; };
+		245CB40F1BF8A28C0006D277 /* ResumeDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeDeepCopy.m; sourceTree = "<group>"; };
+		245CB4101BF8A28C0006D277 /* ResumeShallowCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeShallowCopy.h; sourceTree = "<group>"; };
+		245CB4111BF8A28C0006D277 /* ResumeShallowCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeShallowCopy.m; sourceTree = "<group>"; };
+		245CB4121BF8A28C0006D277 /* WorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkExperience.h; sourceTree = "<group>"; };
+		245CB4131BF8A28C0006D277 /* WorkExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkExperience.m; sourceTree = "<group>"; };
+		245CB4151BF8A28C0006D277 /* GiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiveGift.h; sourceTree = "<group>"; };
+		245CB4161BF8A28C0006D277 /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		245CB4171BF8A28C0006D277 /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		245CB4181BF8A28C0006D277 /* Pursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pursuit.h; sourceTree = "<group>"; };
+		245CB4191BF8A28C0006D277 /* Pursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pursuit.m; sourceTree = "<group>"; };
+		245CB41A1BF8A28C0006D277 /* SchoolGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolGirl.h; sourceTree = "<group>"; };
+		245CB41B1BF8A28C0006D277 /* SchoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolGirl.m; sourceTree = "<group>"; };
+		245CB41D1BF8A28C0006D277 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		245CB41E1BF8A28C0006D277 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		245CB41F1BF8A28C0006D277 /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		245CB4201BF8A28C0006D277 /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		245CB4211BF8A28C0006D277 /* OperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDiv.h; sourceTree = "<group>"; };
+		245CB4221BF8A28C0006D277 /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDiv.m; sourceTree = "<group>"; };
+		245CB4231BF8A28C0006D277 /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		245CB4241BF8A28C0006D277 /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		245CB4251BF8A28C0006D277 /* OperationMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMul.h; sourceTree = "<group>"; };
+		245CB4261BF8A28C0006D277 /* OperationMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMul.m; sourceTree = "<group>"; };
+		245CB4271BF8A28C0006D277 /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSub.h; sourceTree = "<group>"; };
+		245CB4281BF8A28C0006D277 /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSub.m; sourceTree = "<group>"; };
+		245CB42A1BF8A28C0006D277 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		245CB42B1BF8A28C0006D277 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		245CB42D1BF8A28C0006D277 /* AfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfternoonState.h; sourceTree = "<group>"; };
+		245CB42E1BF8A28C0006D277 /* AfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfternoonState.m; sourceTree = "<group>"; };
+		245CB42F1BF8A28C0006D277 /* EveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EveningState.h; sourceTree = "<group>"; };
+		245CB4301BF8A28C0006D277 /* EveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EveningState.m; sourceTree = "<group>"; };
+		245CB4311BF8A28C0006D277 /* ForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForenoonState.h; sourceTree = "<group>"; };
+		245CB4321BF8A28C0006D277 /* ForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForenoonState.m; sourceTree = "<group>"; };
+		245CB4331BF8A28C0006D277 /* NoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoonState.h; sourceTree = "<group>"; };
+		245CB4341BF8A28C0006D277 /* NoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoonState.m; sourceTree = "<group>"; };
+		245CB4351BF8A28C0006D277 /* RestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestState.h; sourceTree = "<group>"; };
+		245CB4361BF8A28C0006D277 /* RestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestState.m; sourceTree = "<group>"; };
+		245CB4371BF8A28C0006D277 /* SleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepingState.h; sourceTree = "<group>"; };
+		245CB4381BF8A28C0006D277 /* SleepingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepingState.m; sourceTree = "<group>"; };
+		245CB4391BF8A28C0006D277 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		245CB43A1BF8A28C0006D277 /* Work.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		245CB43B1BF8A28C0006D277 /* Work.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
+		245CB43D1BF8A28C0006D277 /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		245CB43E1BF8A28C0006D277 /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		245CB43F1BF8A28C0006D277 /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		245CB4401BF8A28C0006D277 /* CashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		245CB4411BF8A28C0006D277 /* CashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		245CB4421BF8A28C0006D277 /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		245CB4431BF8A28C0006D277 /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		245CB4441BF8A28C0006D277 /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		245CB4451BF8A28C0006D277 /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		245CB4471BF8A28C0006D277 /* TestPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaper.h; sourceTree = "<group>"; };
+		245CB4481BF8A28C0006D277 /* TestPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaper.m; sourceTree = "<group>"; };
+		245CB4491BF8A28C0006D277 /* TestPaperA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaperA.h; sourceTree = "<group>"; };
+		245CB44A1BF8A28C0006D277 /* TestPaperA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaperA.m; sourceTree = "<group>"; };
+		245CB44B1BF8A28C0006D277 /* TestPaperB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaperB.h; sourceTree = "<group>"; };
+		245CB44C1BF8A28C0006D277 /* TestPaperB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaperB.m; sourceTree = "<group>"; };
 		2467F50819F37ED800437073 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467F50B19F37ED800437073 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2467F50D19F37ED800437073 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,116 +226,22 @@
 		2467F51519F37ED800437073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2467F51719F37ED800437073 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2467F51919F37ED800437073 /* DesignPatterns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Prefix.pch"; sourceTree = "<group>"; };
-		2467F51A19F37ED800437073 /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
-		2467F51B19F37ED800437073 /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
+		2467F51A19F37ED800437073 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2467F51B19F37ED800437073 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2467F51D19F37ED800437073 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2467F52319F37ED900437073 /* DesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467F52419F37ED900437073 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2467F52C19F37ED900437073 /* DesignPatternsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatternsTests-Info.plist"; sourceTree = "<group>"; };
 		2467F52E19F37ED900437073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2467F53C19F37EEF00437073 /* DPOperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationAdd.h; sourceTree = "<group>"; };
-		2467F53D19F37EEF00437073 /* DPOperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationAdd.m; sourceTree = "<group>"; };
-		2467F53E19F37EEF00437073 /* DPOperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationDiv.h; sourceTree = "<group>"; };
-		2467F53F19F37EEF00437073 /* DPOperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationDiv.m; sourceTree = "<group>"; };
-		2467F54019F37EEF00437073 /* DPOperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationFactory.h; sourceTree = "<group>"; };
-		2467F54119F37EEF00437073 /* DPOperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationFactory.m; sourceTree = "<group>"; };
-		2467F54219F37EEF00437073 /* DPOperationMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationMul.h; sourceTree = "<group>"; };
-		2467F54319F37EEF00437073 /* DPOperationMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationMul.m; sourceTree = "<group>"; };
-		2467F54419F37EEF00437073 /* DPOperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationSub.h; sourceTree = "<group>"; };
-		2467F54519F37EEF00437073 /* DPOperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationSub.m; sourceTree = "<group>"; };
-		2467F54C19F3819200437073 /* DPSimpleFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSimpleFactoryTests.m; sourceTree = "<group>"; };
-		2467F54F19F39DE300437073 /* DPLeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLeiFeng.h; sourceTree = "<group>"; };
-		2467F55019F39E7C00437073 /* DPUndergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUndergraduate.h; sourceTree = "<group>"; };
-		2467F55119F39E7C00437073 /* DPUndergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUndergraduate.m; sourceTree = "<group>"; };
-		2467F55319F39EB700437073 /* DPVolunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVolunteer.h; sourceTree = "<group>"; };
-		2467F55419F39EB700437073 /* DPVolunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVolunteer.m; sourceTree = "<group>"; };
-		2467F55619F3A01E00437073 /* DPLeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLeiFengFactory.h; sourceTree = "<group>"; };
-		2467F55719F3A0E200437073 /* DPUndergraduateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUndergraduateFactory.h; sourceTree = "<group>"; };
-		2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUndergraduateFactory.m; sourceTree = "<group>"; };
-		2467F55A19F3A11100437073 /* DPVolunteerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVolunteerFactory.h; sourceTree = "<group>"; };
-		2467F55B19F3A11100437073 /* DPVolunteerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVolunteerFactory.m; sourceTree = "<group>"; };
-		2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFactoryMethodTests.m; sourceTree = "<group>"; };
-		2467F56119F3CB2700437073 /* DPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUser.h; sourceTree = "<group>"; };
-		2467F56219F3CB2700437073 /* DPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUser.m; sourceTree = "<group>"; };
-		2467F56419F3CB7000437073 /* DPDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDepartment.h; sourceTree = "<group>"; };
-		2467F56519F3CB7000437073 /* DPDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPDepartment.m; sourceTree = "<group>"; };
-		2467F56919F3CDF000437073 /* DPFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFactory.h; sourceTree = "<group>"; };
-		2467F56D19F3D13500437073 /* DPUserCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPUserCrud.h; sourceTree = "<group>"; };
-		2467F57419F3D1C700437073 /* DPSqlserverUserCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSqlserverUserCrud.h; sourceTree = "<group>"; };
-		2467F57519F3D1C700437073 /* DPSqlserverUserCrud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSqlserverUserCrud.m; sourceTree = "<group>"; };
-		2467F57719F3D1DE00437073 /* DPAccessUserCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccessUserCrud.h; sourceTree = "<group>"; };
-		2467F57819F3D1DE00437073 /* DPAccessUserCrud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAccessUserCrud.m; sourceTree = "<group>"; };
-		2467F57A19F3D21500437073 /* DPDepartmentCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPDepartmentCrud.h; sourceTree = "<group>"; };
-		2467F57B19F3D24B00437073 /* DPSqlserverDepartmentCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSqlserverDepartmentCrud.h; sourceTree = "<group>"; };
-		2467F57C19F3D24B00437073 /* DPSqlserverDepartmentCrud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSqlserverDepartmentCrud.m; sourceTree = "<group>"; };
-		2467F57E19F3D25A00437073 /* DPAccessDepartmentCrud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAccessDepartmentCrud.h; sourceTree = "<group>"; };
-		2467F57F19F3D25A00437073 /* DPAccessDepartmentCrud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAccessDepartmentCrud.m; sourceTree = "<group>"; };
-		2491E15E19F7F0AE009AC42F /* DPStrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStrategyTests.m; sourceTree = "<group>"; };
-		2491E16119F7F20E009AC42F /* DPCashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashContext.h; sourceTree = "<group>"; };
-		2491E16219F7F20E009AC42F /* DPCashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashContext.m; sourceTree = "<group>"; };
-		24926FC11A432255006E188B /* DPStock1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPStock1.h; sourceTree = "<group>"; };
-		24926FC21A432255006E188B /* DPStock1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStock1.m; sourceTree = "<group>"; };
-		24926FC41A43247A006E188B /* DPStock2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPStock2.h; sourceTree = "<group>"; };
-		24926FC51A43247A006E188B /* DPStock2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStock2.m; sourceTree = "<group>"; };
-		24926FC71A4324A9006E188B /* DPStock3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPStock3.h; sourceTree = "<group>"; };
-		24926FC81A4324A9006E188B /* DPStock3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStock3.m; sourceTree = "<group>"; };
-		24926FCA1A43250A006E188B /* DPNationalDebt1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNationalDebt1.h; sourceTree = "<group>"; };
-		24926FCB1A43250A006E188B /* DPNationalDebt1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPNationalDebt1.m; sourceTree = "<group>"; };
-		24926FCD1A432586006E188B /* DPRealty1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRealty1.h; sourceTree = "<group>"; };
-		24926FCE1A432586006E188B /* DPRealty1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRealty1.m; sourceTree = "<group>"; };
-		24926FD01A4325C4006E188B /* DPFund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFund.h; sourceTree = "<group>"; };
-		24926FD11A4325C4006E188B /* DPFund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFund.m; sourceTree = "<group>"; };
-		24926FD41A43272A006E188B /* DPFacadeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFacadeTests.m; sourceTree = "<group>"; };
-		24B2B0451A05F5C3001D74E0 /* DPTestPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTestPaper.h; sourceTree = "<group>"; };
-		24B2B0461A05F5C3001D74E0 /* DPTestPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTestPaper.m; sourceTree = "<group>"; };
-		24B2B0481A06007C001D74E0 /* DPTestPaperA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTestPaperA.h; sourceTree = "<group>"; };
-		24B2B0491A06007C001D74E0 /* DPTestPaperA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTestPaperA.m; sourceTree = "<group>"; };
-		24B2B04B1A0609A8001D74E0 /* DPTestPaperB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTestPaperB.h; sourceTree = "<group>"; };
-		24B2B04C1A0609A8001D74E0 /* DPTestPaperB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTestPaperB.m; sourceTree = "<group>"; };
-		24B2B04F1A060A28001D74E0 /* DPTemplateMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTemplateMethodTests.m; sourceTree = "<group>"; };
-		24B2B0551A066288001D74E0 /* DPHandsetBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrand.h; sourceTree = "<group>"; };
-		24B2B0561A066288001D74E0 /* DPHandsetBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrand.m; sourceTree = "<group>"; };
-		24B2B0581A066316001D74E0 /* DPHandsetSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetSoft.h; sourceTree = "<group>"; };
-		24B2B0591A066366001D74E0 /* DPHandsetGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetGame.h; sourceTree = "<group>"; };
-		24B2B05A1A066366001D74E0 /* DPHandsetGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetGame.m; sourceTree = "<group>"; };
-		24B2B05C1A0663ED001D74E0 /* DPHandsetAddressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetAddressList.h; sourceTree = "<group>"; };
-		24B2B05D1A0663ED001D74E0 /* DPHandsetAddressList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetAddressList.m; sourceTree = "<group>"; };
-		24B2B05F1A0664E6001D74E0 /* DPHandsetBrandN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrandN.h; sourceTree = "<group>"; };
-		24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrandN.m; sourceTree = "<group>"; };
-		24B2B0621A066A9F001D74E0 /* DPHandsetBrandM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPHandsetBrandM.h; sourceTree = "<group>"; };
-		24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPHandsetBrandM.m; sourceTree = "<group>"; };
-		24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBridgeTests.m; sourceTree = "<group>"; };
-		24B2B06F1A06751A001D74E0 /* DPPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonBuilder.h; sourceTree = "<group>"; };
-		24B2B0761A067A87001D74E0 /* DPPersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonThinBuilder.h; sourceTree = "<group>"; };
-		24B2B0771A067A87001D74E0 /* DPPersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonThinBuilder.m; sourceTree = "<group>"; };
-		24B2B0791A067B4E001D74E0 /* DPPersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonFatBuilder.h; sourceTree = "<group>"; };
-		24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonFatBuilder.m; sourceTree = "<group>"; };
-		24B2B07F1A067BFE001D74E0 /* DPPersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPersonDirector.h; sourceTree = "<group>"; };
-		24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPersonDirector.m; sourceTree = "<group>"; };
-		24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBuilderTests.m; sourceTree = "<group>"; };
-		24BD69891A4477170007D525 /* DPPrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPrototypeTests.m; sourceTree = "<group>"; };
-		24BD698C1A4479760007D525 /* DPResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResume.h; sourceTree = "<group>"; };
-		24BD698D1A4479760007D525 /* DPResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResume.m; sourceTree = "<group>"; };
-		24BD698F1A453F830007D525 /* DPWorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWorkExperience.h; sourceTree = "<group>"; };
-		24BD69901A453F830007D525 /* DPWorkExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPWorkExperience.m; sourceTree = "<group>"; };
-		24BD69921A454CAB0007D525 /* DPResumeDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResumeDeepCopy.h; sourceTree = "<group>"; };
-		24BD69931A454CAB0007D525 /* DPResumeDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResumeDeepCopy.m; sourceTree = "<group>"; };
-		24BD69951A454CDD0007D525 /* DPResumeShallowCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPResumeShallowCopy.h; sourceTree = "<group>"; };
-		24BD69961A454CDD0007D525 /* DPResumeShallowCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPResumeShallowCopy.m; sourceTree = "<group>"; };
-		24D9587919FE972600C3F23E /* DPEveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPEveningState.h; sourceTree = "<group>"; };
-		24D9587A19FE972600C3F23E /* DPEveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPEveningState.m; sourceTree = "<group>"; };
-		24D9587C19FE979000C3F23E /* DPSleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSleepingState.h; sourceTree = "<group>"; };
-		24D9587D19FE979000C3F23E /* DPSleepingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSleepingState.m; sourceTree = "<group>"; };
-		24D9587F19FE979C00C3F23E /* DPRestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRestState.h; sourceTree = "<group>"; };
-		24D9588019FE979C00C3F23E /* DPRestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRestState.m; sourceTree = "<group>"; };
-		24D9588319FE99B800C3F23E /* DPStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStateTests.m; sourceTree = "<group>"; };
-		24F8A7CB19F4029A00F8BE19 /* DPCashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashSuper.h; sourceTree = "<group>"; };
-		24F8A7CC19F402B600F8BE19 /* DPCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashNormal.h; sourceTree = "<group>"; };
-		24F8A7CD19F402B600F8BE19 /* DPCashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashNormal.m; sourceTree = "<group>"; };
-		24F8A7CF19F402C400F8BE19 /* DPCashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashRebate.h; sourceTree = "<group>"; };
-		24F8A7D019F402C400F8BE19 /* DPCashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashRebate.m; sourceTree = "<group>"; };
-		24F8A7D219F402FC00F8BE19 /* DPCashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCashReturn.h; sourceTree = "<group>"; };
-		24F8A7D319F402FC00F8BE19 /* DPCashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCashReturn.m; sourceTree = "<group>"; };
+		2467F54C19F3819200437073 /* SimpleFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryTests.m; sourceTree = "<group>"; };
+		2467F55E19F3A1F400437073 /* FactoryMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodTests.m; sourceTree = "<group>"; };
+		2491E15E19F7F0AE009AC42F /* StrategyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
+		24926FD41A43272A006E188B /* FacadeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeTests.m; sourceTree = "<group>"; };
+		24B2B04F1A060A28001D74E0 /* TemplateMethodTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodTests.m; sourceTree = "<group>"; };
+		24B2B06C1A066B81001D74E0 /* BridgeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeTests.m; sourceTree = "<group>"; };
+		24B2B0831A067DB1001D74E0 /* BuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderTests.m; sourceTree = "<group>"; };
+		24BD69891A4477170007D525 /* PrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
+		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,24 +268,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2406AAE41A4335EE00B2A359 /* Proxy */ = {
-			isa = PBXGroup;
-			children = (
-				2406AAE51A43364900B2A359 /* DPGiveGift.h */,
-				2406AAE61A43376800B2A359 /* DPPursuit.h */,
-				2406AAE71A43376800B2A359 /* DPPursuit.m */,
-				2406AAE91A4337D800B2A359 /* DPSchoolGirl.h */,
-				2406AAEA1A4337D800B2A359 /* DPSchoolGirl.m */,
-				2406AAEC1A43399500B2A359 /* DPProxy.h */,
-				2406AAED1A43399500B2A359 /* DPProxy.m */,
-			);
-			path = Proxy;
-			sourceTree = "<group>";
-		};
 		2406AAEF1A433A7D00B2A359 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				2406AAF01A433A8900B2A359 /* DPProxyTests.m */,
+				2406AAF01A433A8900B2A359 /* ProxyTests.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -293,48 +279,227 @@
 		2407155519F3EB9100E9F749 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				2407155619F3EBB500E9F749 /* DPAbstractFactoryTests.m */,
+				2407155619F3EBB500E9F749 /* AbstractFactoryTests.m */,
 			);
 			path = AbstractFactory;
-			sourceTree = "<group>";
-		};
-		2437B0411A089159007CE0EF /* Singleton */ = {
-			isa = PBXGroup;
-			children = (
-				2437B0421A08917C007CE0EF /* DPSingleton.h */,
-				2437B0431A08917C007CE0EF /* DPSingleton.m */,
-			);
-			path = Singleton;
 			sourceTree = "<group>";
 		};
 		2437B0451A089ABA007CE0EF /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				2437B04A1A089B0C007CE0EF /* DPSingletonTests.m */,
+				2437B04A1A089B0C007CE0EF /* SingletonTests.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
 		};
-		245C997D19FE849100B0EBBA /* State */ = {
+		245CB3CA1BF8A28C0006D277 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				245C997E19FE8ADB00B0EBBA /* DPState.h */,
-				245C997F19FE8B5E00B0EBBA /* DPWork.h */,
-				245C998019FE8B5E00B0EBBA /* DPWork.m */,
-				245C998219FE8C7900B0EBBA /* DPForenoonState.h */,
-				245C998319FE8C7900B0EBBA /* DPForenoonState.m */,
-				245C998519FE8F0A00B0EBBA /* DPNoonState.h */,
-				245C998619FE8F0A00B0EBBA /* DPNoonState.m */,
-				240447D919FE939100FB315D /* DPAfternoonState.h */,
-				240447DA19FE939100FB315D /* DPAfternoonState.m */,
-				24D9587919FE972600C3F23E /* DPEveningState.h */,
-				24D9587A19FE972600C3F23E /* DPEveningState.m */,
-				24D9587C19FE979000C3F23E /* DPSleepingState.h */,
-				24D9587D19FE979000C3F23E /* DPSleepingState.m */,
-				24D9587F19FE979C00C3F23E /* DPRestState.h */,
-				24D9588019FE979C00C3F23E /* DPRestState.m */,
+				245CB3CB1BF8A28C0006D277 /* AccessDepartment.h */,
+				245CB3CC1BF8A28C0006D277 /* AccessDepartment.m */,
+				245CB3CD1BF8A28C0006D277 /* AccessFactory.h */,
+				245CB3CE1BF8A28C0006D277 /* AccessFactory.m */,
+				245CB3CF1BF8A28C0006D277 /* AccessUser.h */,
+				245CB3D01BF8A28C0006D277 /* AccessUser.m */,
+				245CB3D11BF8A28C0006D277 /* Entity */,
+				245CB3D61BF8A28C0006D277 /* IDepartment.h */,
+				245CB3D71BF8A28C0006D277 /* IFactory.h */,
+				245CB3D81BF8A28C0006D277 /* IUser.h */,
+				245CB3D91BF8A28C0006D277 /* SQLServerDepartment.h */,
+				245CB3DA1BF8A28C0006D277 /* SQLServerDepartment.m */,
+				245CB3DB1BF8A28C0006D277 /* SQLServerFactory.h */,
+				245CB3DC1BF8A28C0006D277 /* SQLServerFactory.m */,
+				245CB3DD1BF8A28C0006D277 /* SQLServerUser.h */,
+				245CB3DE1BF8A28C0006D277 /* SQLServerUser.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		245CB3D11BF8A28C0006D277 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				245CB3D21BF8A28C0006D277 /* Department.h */,
+				245CB3D31BF8A28C0006D277 /* Department.m */,
+				245CB3D41BF8A28C0006D277 /* User.h */,
+				245CB3D51BF8A28C0006D277 /* User.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		245CB3DF1BF8A28C0006D277 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				245CB3E01BF8A28C0006D277 /* HandsetAddressList.h */,
+				245CB3E11BF8A28C0006D277 /* HandsetAddressList.m */,
+				245CB3E21BF8A28C0006D277 /* HandsetBrand.h */,
+				245CB3E31BF8A28C0006D277 /* HandsetBrand.m */,
+				245CB3E41BF8A28C0006D277 /* HandsetBrandM.h */,
+				245CB3E51BF8A28C0006D277 /* HandsetBrandM.m */,
+				245CB3E61BF8A28C0006D277 /* HandsetBrandN.h */,
+				245CB3E71BF8A28C0006D277 /* HandsetBrandN.m */,
+				245CB3E81BF8A28C0006D277 /* HandsetGame.h */,
+				245CB3E91BF8A28C0006D277 /* HandsetGame.m */,
+				245CB3EA1BF8A28C0006D277 /* HandsetSoft.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		245CB3EB1BF8A28C0006D277 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				245CB3EC1BF8A28C0006D277 /* PersonBuilder.h */,
+				245CB3ED1BF8A28C0006D277 /* PersonDirector.h */,
+				245CB3EE1BF8A28C0006D277 /* PersonDirector.m */,
+				245CB3EF1BF8A28C0006D277 /* PersonFatBuilder.h */,
+				245CB3F01BF8A28C0006D277 /* PersonFatBuilder.m */,
+				245CB3F11BF8A28C0006D277 /* PersonThinBuilder.h */,
+				245CB3F21BF8A28C0006D277 /* PersonThinBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		245CB3F31BF8A28C0006D277 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				245CB3F41BF8A28C0006D277 /* Fund.h */,
+				245CB3F51BF8A28C0006D277 /* Fund.m */,
+				245CB3F61BF8A28C0006D277 /* NationalDebt1.h */,
+				245CB3F71BF8A28C0006D277 /* NationalDebt1.m */,
+				245CB3F81BF8A28C0006D277 /* Realty1.h */,
+				245CB3F91BF8A28C0006D277 /* Realty1.m */,
+				245CB3FA1BF8A28C0006D277 /* Stock1.h */,
+				245CB3FB1BF8A28C0006D277 /* Stock1.m */,
+				245CB3FC1BF8A28C0006D277 /* Stock2.h */,
+				245CB3FD1BF8A28C0006D277 /* Stock2.m */,
+				245CB3FE1BF8A28C0006D277 /* Stock3.h */,
+				245CB3FF1BF8A28C0006D277 /* Stock3.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		245CB4001BF8A28C0006D277 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				245CB4011BF8A28C0006D277 /* LeiFeng.h */,
+				245CB4021BF8A28C0006D277 /* LeiFengFactory.h */,
+				245CB4031BF8A28C0006D277 /* Undergraduate.h */,
+				245CB4041BF8A28C0006D277 /* Undergraduate.m */,
+				245CB4051BF8A28C0006D277 /* UndergraduateFactory.h */,
+				245CB4061BF8A28C0006D277 /* UndergraduateFactory.m */,
+				245CB4071BF8A28C0006D277 /* Volunteer.h */,
+				245CB4081BF8A28C0006D277 /* Volunteer.m */,
+				245CB4091BF8A28C0006D277 /* VolunteerFactory.h */,
+				245CB40A1BF8A28C0006D277 /* VolunteerFactory.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		245CB40B1BF8A28C0006D277 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				245CB40C1BF8A28C0006D277 /* Resume.h */,
+				245CB40D1BF8A28C0006D277 /* Resume.m */,
+				245CB40E1BF8A28C0006D277 /* ResumeDeepCopy.h */,
+				245CB40F1BF8A28C0006D277 /* ResumeDeepCopy.m */,
+				245CB4101BF8A28C0006D277 /* ResumeShallowCopy.h */,
+				245CB4111BF8A28C0006D277 /* ResumeShallowCopy.m */,
+				245CB4121BF8A28C0006D277 /* WorkExperience.h */,
+				245CB4131BF8A28C0006D277 /* WorkExperience.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		245CB4141BF8A28C0006D277 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				245CB4151BF8A28C0006D277 /* GiveGift.h */,
+				245CB4161BF8A28C0006D277 /* Proxy.h */,
+				245CB4171BF8A28C0006D277 /* Proxy.m */,
+				245CB4181BF8A28C0006D277 /* Pursuit.h */,
+				245CB4191BF8A28C0006D277 /* Pursuit.m */,
+				245CB41A1BF8A28C0006D277 /* SchoolGirl.h */,
+				245CB41B1BF8A28C0006D277 /* SchoolGirl.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		245CB41C1BF8A28C0006D277 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				245CB41D1BF8A28C0006D277 /* Operation.h */,
+				245CB41E1BF8A28C0006D277 /* Operation.m */,
+				245CB41F1BF8A28C0006D277 /* OperationAdd.h */,
+				245CB4201BF8A28C0006D277 /* OperationAdd.m */,
+				245CB4211BF8A28C0006D277 /* OperationDiv.h */,
+				245CB4221BF8A28C0006D277 /* OperationDiv.m */,
+				245CB4231BF8A28C0006D277 /* OperationFactory.h */,
+				245CB4241BF8A28C0006D277 /* OperationFactory.m */,
+				245CB4251BF8A28C0006D277 /* OperationMul.h */,
+				245CB4261BF8A28C0006D277 /* OperationMul.m */,
+				245CB4271BF8A28C0006D277 /* OperationSub.h */,
+				245CB4281BF8A28C0006D277 /* OperationSub.m */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		245CB4291BF8A28C0006D277 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				245CB42A1BF8A28C0006D277 /* Singleton.h */,
+				245CB42B1BF8A28C0006D277 /* Singleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		245CB42C1BF8A28C0006D277 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				245CB42D1BF8A28C0006D277 /* AfternoonState.h */,
+				245CB42E1BF8A28C0006D277 /* AfternoonState.m */,
+				245CB42F1BF8A28C0006D277 /* EveningState.h */,
+				245CB4301BF8A28C0006D277 /* EveningState.m */,
+				245CB4311BF8A28C0006D277 /* ForenoonState.h */,
+				245CB4321BF8A28C0006D277 /* ForenoonState.m */,
+				245CB4331BF8A28C0006D277 /* NoonState.h */,
+				245CB4341BF8A28C0006D277 /* NoonState.m */,
+				245CB4351BF8A28C0006D277 /* RestState.h */,
+				245CB4361BF8A28C0006D277 /* RestState.m */,
+				245CB4371BF8A28C0006D277 /* SleepingState.h */,
+				245CB4381BF8A28C0006D277 /* SleepingState.m */,
+				245CB4391BF8A28C0006D277 /* State.h */,
+				245CB43A1BF8A28C0006D277 /* Work.h */,
+				245CB43B1BF8A28C0006D277 /* Work.m */,
 			);
 			path = State;
+			sourceTree = "<group>";
+		};
+		245CB43C1BF8A28C0006D277 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				245CB43D1BF8A28C0006D277 /* CashContext.h */,
+				245CB43E1BF8A28C0006D277 /* CashContext.m */,
+				245CB43F1BF8A28C0006D277 /* CashNormal.h */,
+				245CB4401BF8A28C0006D277 /* CashNormal.m */,
+				245CB4411BF8A28C0006D277 /* CashRebate.h */,
+				245CB4421BF8A28C0006D277 /* CashRebate.m */,
+				245CB4431BF8A28C0006D277 /* CashReturn.h */,
+				245CB4441BF8A28C0006D277 /* CashReturn.m */,
+				245CB4451BF8A28C0006D277 /* CashSuper.h */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		245CB4461BF8A28C0006D277 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				245CB4471BF8A28C0006D277 /* TestPaper.h */,
+				245CB4481BF8A28C0006D277 /* TestPaper.m */,
+				245CB4491BF8A28C0006D277 /* TestPaperA.h */,
+				245CB44A1BF8A28C0006D277 /* TestPaperA.m */,
+				245CB44B1BF8A28C0006D277 /* TestPaperB.h */,
+				245CB44C1BF8A28C0006D277 /* TestPaperB.m */,
+			);
+			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
 		2467F4FF19F37ED800437073 = {
@@ -370,20 +535,20 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				24BD698B1A44795C0007D525 /* Prototype */,
-				2406AAE41A4335EE00B2A359 /* Proxy */,
-				24926FC01A432206006E188B /* Facade */,
-				2437B0411A089159007CE0EF /* Singleton */,
-				24B2B06E1A067338001D74E0 /* Builder */,
-				24B2B0511A065FF5001D74E0 /* Bridge */,
-				24B2B0441A05E9D5001D74E0 /* TemplateMethod */,
-				245C997D19FE849100B0EBBA /* State */,
-				24F8A7C919F4027100F8BE19 /* Strategy */,
-				2467F56019F3C67F00437073 /* AbstractFactory */,
-				2467F54E19F3907800437073 /* FactoryMethod */,
-				2467F53A19F37EEF00437073 /* SimpleFactory */,
-				2467F51A19F37ED800437073 /* DPAppDelegate.h */,
-				2467F51B19F37ED800437073 /* DPAppDelegate.m */,
+				245CB3CA1BF8A28C0006D277 /* AbstractFactory */,
+				245CB3DF1BF8A28C0006D277 /* Bridge */,
+				245CB3EB1BF8A28C0006D277 /* Builder */,
+				245CB3F31BF8A28C0006D277 /* Facade */,
+				245CB4001BF8A28C0006D277 /* FactoryMethod */,
+				245CB40B1BF8A28C0006D277 /* Prototype */,
+				245CB4141BF8A28C0006D277 /* Proxy */,
+				245CB41C1BF8A28C0006D277 /* SimpleFactory */,
+				245CB4291BF8A28C0006D277 /* Singleton */,
+				245CB42C1BF8A28C0006D277 /* State */,
+				245CB43C1BF8A28C0006D277 /* Strategy */,
+				245CB4461BF8A28C0006D277 /* TemplateMethod */,
+				2467F51A19F37ED800437073 /* AppDelegate.h */,
+				2467F51B19F37ED800437073 /* AppDelegate.m */,
 				2467F51D19F37ED800437073 /* Images.xcassets */,
 				2467F51219F37ED800437073 /* Supporting Files */,
 			);
@@ -430,184 +595,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2467F53A19F37EEF00437073 /* SimpleFactory */ = {
-			isa = PBXGroup;
-			children = (
-				245CB3C01BF86C5D0006D277 /* DPOperation.h */,
-				245CB3C11BF86C5D0006D277 /* DPOperation.m */,
-				2467F53C19F37EEF00437073 /* DPOperationAdd.h */,
-				2467F53D19F37EEF00437073 /* DPOperationAdd.m */,
-				2467F54419F37EEF00437073 /* DPOperationSub.h */,
-				2467F54519F37EEF00437073 /* DPOperationSub.m */,
-				2467F54219F37EEF00437073 /* DPOperationMul.h */,
-				2467F54319F37EEF00437073 /* DPOperationMul.m */,
-				2467F53E19F37EEF00437073 /* DPOperationDiv.h */,
-				2467F53F19F37EEF00437073 /* DPOperationDiv.m */,
-				2467F54019F37EEF00437073 /* DPOperationFactory.h */,
-				2467F54119F37EEF00437073 /* DPOperationFactory.m */,
-			);
-			path = SimpleFactory;
-			sourceTree = "<group>";
-		};
 		2467F54B19F3813100437073 /* SimpleFactory */ = {
 			isa = PBXGroup;
 			children = (
-				2467F54C19F3819200437073 /* DPSimpleFactoryTests.m */,
+				2467F54C19F3819200437073 /* SimpleFactoryTests.m */,
 			);
 			path = SimpleFactory;
-			sourceTree = "<group>";
-		};
-		2467F54E19F3907800437073 /* FactoryMethod */ = {
-			isa = PBXGroup;
-			children = (
-				2467F54F19F39DE300437073 /* DPLeiFeng.h */,
-				2467F55019F39E7C00437073 /* DPUndergraduate.h */,
-				2467F55119F39E7C00437073 /* DPUndergraduate.m */,
-				2467F55319F39EB700437073 /* DPVolunteer.h */,
-				2467F55419F39EB700437073 /* DPVolunteer.m */,
-				2467F55619F3A01E00437073 /* DPLeiFengFactory.h */,
-				2467F55719F3A0E200437073 /* DPUndergraduateFactory.h */,
-				2467F55819F3A0E200437073 /* DPUndergraduateFactory.m */,
-				2467F55A19F3A11100437073 /* DPVolunteerFactory.h */,
-				2467F55B19F3A11100437073 /* DPVolunteerFactory.m */,
-			);
-			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 		2467F55D19F3A1E200437073 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
-				2467F55E19F3A1F400437073 /* DPFactoryMethodTests.m */,
+				2467F55E19F3A1F400437073 /* FactoryMethodTests.m */,
 			);
 			path = FactoryMethod;
-			sourceTree = "<group>";
-		};
-		2467F56019F3C67F00437073 /* AbstractFactory */ = {
-			isa = PBXGroup;
-			children = (
-				2467F56119F3CB2700437073 /* DPUser.h */,
-				2467F56219F3CB2700437073 /* DPUser.m */,
-				2467F56D19F3D13500437073 /* DPUserCrud.h */,
-				2467F57419F3D1C700437073 /* DPSqlserverUserCrud.h */,
-				2467F57519F3D1C700437073 /* DPSqlserverUserCrud.m */,
-				2467F57719F3D1DE00437073 /* DPAccessUserCrud.h */,
-				2467F57819F3D1DE00437073 /* DPAccessUserCrud.m */,
-				2467F56419F3CB7000437073 /* DPDepartment.h */,
-				2467F56519F3CB7000437073 /* DPDepartment.m */,
-				2467F57A19F3D21500437073 /* DPDepartmentCrud.h */,
-				2467F57B19F3D24B00437073 /* DPSqlserverDepartmentCrud.h */,
-				2467F57C19F3D24B00437073 /* DPSqlserverDepartmentCrud.m */,
-				2467F57E19F3D25A00437073 /* DPAccessDepartmentCrud.h */,
-				2467F57F19F3D25A00437073 /* DPAccessDepartmentCrud.m */,
-				2467F56919F3CDF000437073 /* DPFactory.h */,
-				2407154F19F3EA5900E9F749 /* DPSqlserverFactory.h */,
-				2407155019F3EA5900E9F749 /* DPSqlserverFactory.m */,
-				2407155219F3EA6C00E9F749 /* DPAccessFactory.h */,
-				2407155319F3EA6C00E9F749 /* DPAccessFactory.m */,
-			);
-			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 		2491E15D19F7F074009AC42F /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
-				2491E15E19F7F0AE009AC42F /* DPStrategyTests.m */,
+				2491E15E19F7F0AE009AC42F /* StrategyTests.m */,
 			);
 			path = Strategy;
-			sourceTree = "<group>";
-		};
-		24926FC01A432206006E188B /* Facade */ = {
-			isa = PBXGroup;
-			children = (
-				24926FC11A432255006E188B /* DPStock1.h */,
-				24926FC21A432255006E188B /* DPStock1.m */,
-				24926FC41A43247A006E188B /* DPStock2.h */,
-				24926FC51A43247A006E188B /* DPStock2.m */,
-				24926FC71A4324A9006E188B /* DPStock3.h */,
-				24926FC81A4324A9006E188B /* DPStock3.m */,
-				24926FCA1A43250A006E188B /* DPNationalDebt1.h */,
-				24926FCB1A43250A006E188B /* DPNationalDebt1.m */,
-				24926FCD1A432586006E188B /* DPRealty1.h */,
-				24926FCE1A432586006E188B /* DPRealty1.m */,
-				24926FD01A4325C4006E188B /* DPFund.h */,
-				24926FD11A4325C4006E188B /* DPFund.m */,
-			);
-			path = Facade;
 			sourceTree = "<group>";
 		};
 		24926FD31A432717006E188B /* Facade */ = {
 			isa = PBXGroup;
 			children = (
-				24926FD41A43272A006E188B /* DPFacadeTests.m */,
+				24926FD41A43272A006E188B /* FacadeTests.m */,
 			);
 			path = Facade;
-			sourceTree = "<group>";
-		};
-		24B2B0441A05E9D5001D74E0 /* TemplateMethod */ = {
-			isa = PBXGroup;
-			children = (
-				24B2B0451A05F5C3001D74E0 /* DPTestPaper.h */,
-				24B2B0461A05F5C3001D74E0 /* DPTestPaper.m */,
-				24B2B0481A06007C001D74E0 /* DPTestPaperA.h */,
-				24B2B0491A06007C001D74E0 /* DPTestPaperA.m */,
-				24B2B04B1A0609A8001D74E0 /* DPTestPaperB.h */,
-				24B2B04C1A0609A8001D74E0 /* DPTestPaperB.m */,
-			);
-			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
 		24B2B04E1A060A0C001D74E0 /* TemplateMethod */ = {
 			isa = PBXGroup;
 			children = (
-				24B2B04F1A060A28001D74E0 /* DPTemplateMethodTests.m */,
+				24B2B04F1A060A28001D74E0 /* TemplateMethodTests.m */,
 			);
 			path = TemplateMethod;
-			sourceTree = "<group>";
-		};
-		24B2B0511A065FF5001D74E0 /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				24B2B0551A066288001D74E0 /* DPHandsetBrand.h */,
-				24B2B0561A066288001D74E0 /* DPHandsetBrand.m */,
-				24B2B0621A066A9F001D74E0 /* DPHandsetBrandM.h */,
-				24B2B0631A066A9F001D74E0 /* DPHandsetBrandM.m */,
-				24B2B05F1A0664E6001D74E0 /* DPHandsetBrandN.h */,
-				24B2B0601A0664E6001D74E0 /* DPHandsetBrandN.m */,
-				24B2B0581A066316001D74E0 /* DPHandsetSoft.h */,
-				24B2B0591A066366001D74E0 /* DPHandsetGame.h */,
-				24B2B05A1A066366001D74E0 /* DPHandsetGame.m */,
-				24B2B05C1A0663ED001D74E0 /* DPHandsetAddressList.h */,
-				24B2B05D1A0663ED001D74E0 /* DPHandsetAddressList.m */,
-			);
-			path = Bridge;
 			sourceTree = "<group>";
 		};
 		24B2B0651A066AF1001D74E0 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
-				24B2B06C1A066B81001D74E0 /* DPBridgeTests.m */,
+				24B2B06C1A066B81001D74E0 /* BridgeTests.m */,
 			);
 			path = Bridge;
-			sourceTree = "<group>";
-		};
-		24B2B06E1A067338001D74E0 /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				24B2B06F1A06751A001D74E0 /* DPPersonBuilder.h */,
-				24B2B0761A067A87001D74E0 /* DPPersonThinBuilder.h */,
-				24B2B0771A067A87001D74E0 /* DPPersonThinBuilder.m */,
-				24B2B0791A067B4E001D74E0 /* DPPersonFatBuilder.h */,
-				24B2B07A1A067B4E001D74E0 /* DPPersonFatBuilder.m */,
-				24B2B07F1A067BFE001D74E0 /* DPPersonDirector.h */,
-				24B2B0801A067BFE001D74E0 /* DPPersonDirector.m */,
-			);
-			path = Builder;
 			sourceTree = "<group>";
 		};
 		24B2B0821A067DA0001D74E0 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				24B2B0831A067DB1001D74E0 /* DPBuilderTests.m */,
+				24B2B0831A067DB1001D74E0 /* BuilderTests.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -615,22 +654,7 @@
 		24BD69861A44762C0007D525 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				24BD69891A4477170007D525 /* DPPrototypeTests.m */,
-			);
-			path = Prototype;
-			sourceTree = "<group>";
-		};
-		24BD698B1A44795C0007D525 /* Prototype */ = {
-			isa = PBXGroup;
-			children = (
-				24BD698C1A4479760007D525 /* DPResume.h */,
-				24BD698D1A4479760007D525 /* DPResume.m */,
-				24BD698F1A453F830007D525 /* DPWorkExperience.h */,
-				24BD69901A453F830007D525 /* DPWorkExperience.m */,
-				24BD69921A454CAB0007D525 /* DPResumeDeepCopy.h */,
-				24BD69931A454CAB0007D525 /* DPResumeDeepCopy.m */,
-				24BD69951A454CDD0007D525 /* DPResumeShallowCopy.h */,
-				24BD69961A454CDD0007D525 /* DPResumeShallowCopy.m */,
+				24BD69891A4477170007D525 /* PrototypeTests.m */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -638,25 +662,9 @@
 		24D9588219FE99A900C3F23E /* State */ = {
 			isa = PBXGroup;
 			children = (
-				24D9588319FE99B800C3F23E /* DPStateTests.m */,
+				24D9588319FE99B800C3F23E /* StateTests.m */,
 			);
 			path = State;
-			sourceTree = "<group>";
-		};
-		24F8A7C919F4027100F8BE19 /* Strategy */ = {
-			isa = PBXGroup;
-			children = (
-				24F8A7CB19F4029A00F8BE19 /* DPCashSuper.h */,
-				24F8A7CC19F402B600F8BE19 /* DPCashNormal.h */,
-				24F8A7CD19F402B600F8BE19 /* DPCashNormal.m */,
-				24F8A7CF19F402C400F8BE19 /* DPCashRebate.h */,
-				24F8A7D019F402C400F8BE19 /* DPCashRebate.m */,
-				24F8A7D219F402FC00F8BE19 /* DPCashReturn.h */,
-				24F8A7D319F402FC00F8BE19 /* DPCashReturn.m */,
-				2491E16119F7F20E009AC42F /* DPCashContext.h */,
-				2491E16219F7F20E009AC42F /* DPCashContext.m */,
-			);
-			path = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -755,62 +763,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2406AAEE1A43399500B2A359 /* DPProxy.m in Sources */,
-				2467F54A19F37EEF00437073 /* DPOperationSub.m in Sources */,
-				2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */,
-				2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */,
-				24B2B04D1A0609A8001D74E0 /* DPTestPaperB.m in Sources */,
-				245CB3C21BF86C5D0006D277 /* DPOperation.m in Sources */,
-				24B2B07B1A067B4E001D74E0 /* DPPersonFatBuilder.m in Sources */,
-				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
-				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
-				24F8A7D419F402FC00F8BE19 /* DPCashReturn.m in Sources */,
-				24926FCC1A43250A006E188B /* DPNationalDebt1.m in Sources */,
-				24B2B0611A0664E6001D74E0 /* DPHandsetBrandN.m in Sources */,
-				24B2B0571A066288001D74E0 /* DPHandsetBrand.m in Sources */,
-				2467F57D19F3D24B00437073 /* DPSqlserverDepartmentCrud.m in Sources */,
-				2406AAE81A43376800B2A359 /* DPPursuit.m in Sources */,
-				2467F57919F3D1DE00437073 /* DPAccessUserCrud.m in Sources */,
-				2467F54619F37EEF00437073 /* DPOperationAdd.m in Sources */,
-				24B2B0471A05F5C3001D74E0 /* DPTestPaper.m in Sources */,
-				24BD69941A454CAB0007D525 /* DPResumeDeepCopy.m in Sources */,
-				24BD69911A453F830007D525 /* DPWorkExperience.m in Sources */,
-				240447DB19FE939100FB315D /* DPAfternoonState.m in Sources */,
-				245C998719FE8F0A00B0EBBA /* DPNoonState.m in Sources */,
-				24B2B0641A066A9F001D74E0 /* DPHandsetBrandM.m in Sources */,
-				24BD69971A454CDD0007D525 /* DPResumeShallowCopy.m in Sources */,
-				24B2B05E1A0663ED001D74E0 /* DPHandsetAddressList.m in Sources */,
-				24926FC31A432255006E188B /* DPStock1.m in Sources */,
-				2407155119F3EA5900E9F749 /* DPSqlserverFactory.m in Sources */,
-				2467F55219F39E7C00437073 /* DPUndergraduate.m in Sources */,
-				2406AAEB1A4337D800B2A359 /* DPSchoolGirl.m in Sources */,
-				24B2B05B1A066366001D74E0 /* DPHandsetGame.m in Sources */,
-				2467F51C19F37ED800437073 /* DPAppDelegate.m in Sources */,
-				2467F55519F39EB700437073 /* DPVolunteer.m in Sources */,
-				2467F57619F3D1C700437073 /* DPSqlserverUserCrud.m in Sources */,
-				24D9587B19FE972600C3F23E /* DPEveningState.m in Sources */,
-				245C998419FE8C7900B0EBBA /* DPForenoonState.m in Sources */,
-				2467F56619F3CB7000437073 /* DPDepartment.m in Sources */,
-				24D9588119FE979C00C3F23E /* DPRestState.m in Sources */,
-				24F8A7D119F402C400F8BE19 /* DPCashRebate.m in Sources */,
-				24B2B04A1A06007C001D74E0 /* DPTestPaperA.m in Sources */,
+				245CB4551BF8A28C0006D277 /* HandsetAddressList.m in Sources */,
+				245CB4681BF8A28C0006D277 /* ResumeDeepCopy.m in Sources */,
+				245CB4801BF8A28C0006D277 /* TestPaper.m in Sources */,
+				245CB47A1BF8A28C0006D277 /* SleepingState.m in Sources */,
+				245CB44E1BF8A28C0006D277 /* AccessFactory.m in Sources */,
+				245CB46E1BF8A28C0006D277 /* Operation.m in Sources */,
+				245CB47E1BF8A28C0006D277 /* CashRebate.m in Sources */,
+				245CB4641BF8A28C0006D277 /* UndergraduateFactory.m in Sources */,
+				245CB4611BF8A28C0006D277 /* Stock2.m in Sources */,
+				245CB4791BF8A28C0006D277 /* RestState.m in Sources */,
+				245CB4631BF8A28C0006D277 /* Undergraduate.m in Sources */,
+				245CB46B1BF8A28C0006D277 /* Proxy.m in Sources */,
+				245CB47C1BF8A28C0006D277 /* CashContext.m in Sources */,
+				245CB4661BF8A28C0006D277 /* VolunteerFactory.m in Sources */,
+				245CB47D1BF8A28C0006D277 /* CashNormal.m in Sources */,
+				245CB4691BF8A28C0006D277 /* ResumeShallowCopy.m in Sources */,
+				245CB4581BF8A28C0006D277 /* HandsetBrandN.m in Sources */,
+				245CB4821BF8A28C0006D277 /* TestPaperB.m in Sources */,
+				245CB45C1BF8A28C0006D277 /* PersonThinBuilder.m in Sources */,
+				245CB4811BF8A28C0006D277 /* TestPaperA.m in Sources */,
+				245CB45E1BF8A28C0006D277 /* NationalDebt1.m in Sources */,
+				245CB4511BF8A28C0006D277 /* User.m in Sources */,
+				245CB4561BF8A28C0006D277 /* HandsetBrand.m in Sources */,
+				2467F51C19F37ED800437073 /* AppDelegate.m in Sources */,
+				245CB46F1BF8A28C0006D277 /* OperationAdd.m in Sources */,
+				245CB4671BF8A28C0006D277 /* Resume.m in Sources */,
+				245CB4521BF8A28C0006D277 /* SQLServerDepartment.m in Sources */,
+				245CB4621BF8A28C0006D277 /* Stock3.m in Sources */,
+				245CB4771BF8A28C0006D277 /* ForenoonState.m in Sources */,
+				245CB4541BF8A28C0006D277 /* SQLServerUser.m in Sources */,
+				245CB4651BF8A28C0006D277 /* Volunteer.m in Sources */,
+				245CB4781BF8A28C0006D277 /* NoonState.m in Sources */,
+				245CB4591BF8A28C0006D277 /* HandsetGame.m in Sources */,
+				245CB47B1BF8A28C0006D277 /* Work.m in Sources */,
+				245CB4701BF8A28C0006D277 /* OperationDiv.m in Sources */,
+				245CB4721BF8A28C0006D277 /* OperationMul.m in Sources */,
+				245CB4731BF8A28C0006D277 /* OperationSub.m in Sources */,
 				2467F51819F37ED800437073 /* main.m in Sources */,
-				24926FC91A4324A9006E188B /* DPStock3.m in Sources */,
-				2467F54819F37EEF00437073 /* DPOperationFactory.m in Sources */,
-				245C998119FE8B5E00B0EBBA /* DPWork.m in Sources */,
-				24926FD21A4325C4006E188B /* DPFund.m in Sources */,
-				2467F58019F3D25A00437073 /* DPAccessDepartmentCrud.m in Sources */,
-				24D9587E19FE979000C3F23E /* DPSleepingState.m in Sources */,
-				2467F55919F3A0E200437073 /* DPUndergraduateFactory.m in Sources */,
-				24F8A7CE19F402B600F8BE19 /* DPCashNormal.m in Sources */,
-				2467F56319F3CB2700437073 /* DPUser.m in Sources */,
-				24926FC61A43247A006E188B /* DPStock2.m in Sources */,
-				2467F54719F37EEF00437073 /* DPOperationDiv.m in Sources */,
-				24926FCF1A432586006E188B /* DPRealty1.m in Sources */,
-				24B2B0811A067BFE001D74E0 /* DPPersonDirector.m in Sources */,
-				24B2B0781A067A87001D74E0 /* DPPersonThinBuilder.m in Sources */,
-				24BD698E1A4479760007D525 /* DPResume.m in Sources */,
-				2437B0441A08917C007CE0EF /* DPSingleton.m in Sources */,
+				245CB44D1BF8A28C0006D277 /* AccessDepartment.m in Sources */,
+				245CB46A1BF8A28C0006D277 /* WorkExperience.m in Sources */,
+				245CB46C1BF8A28C0006D277 /* Pursuit.m in Sources */,
+				245CB45B1BF8A28C0006D277 /* PersonFatBuilder.m in Sources */,
+				245CB4601BF8A28C0006D277 /* Stock1.m in Sources */,
+				245CB4531BF8A28C0006D277 /* SQLServerFactory.m in Sources */,
+				245CB44F1BF8A28C0006D277 /* AccessUser.m in Sources */,
+				245CB4711BF8A28C0006D277 /* OperationFactory.m in Sources */,
+				245CB46D1BF8A28C0006D277 /* SchoolGirl.m in Sources */,
+				245CB4501BF8A28C0006D277 /* Department.m in Sources */,
+				245CB45F1BF8A28C0006D277 /* Realty1.m in Sources */,
+				245CB45A1BF8A28C0006D277 /* PersonDirector.m in Sources */,
+				245CB4741BF8A28C0006D277 /* Singleton.m in Sources */,
+				245CB45D1BF8A28C0006D277 /* Fund.m in Sources */,
+				245CB47F1BF8A28C0006D277 /* CashReturn.m in Sources */,
+				245CB4751BF8A28C0006D277 /* AfternoonState.m in Sources */,
+				245CB4761BF8A28C0006D277 /* EveningState.m in Sources */,
+				245CB4571BF8A28C0006D277 /* HandsetBrandM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,18 +826,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B2B0501A060A28001D74E0 /* DPTemplateMethodTests.m in Sources */,
-				2406AAF11A433A8900B2A359 /* DPProxyTests.m in Sources */,
-				2437B04B1A089B0C007CE0EF /* DPSingletonTests.m in Sources */,
-				24B2B0841A067DB1001D74E0 /* DPBuilderTests.m in Sources */,
-				24926FD51A43272A006E188B /* DPFacadeTests.m in Sources */,
-				24D9588419FE99B800C3F23E /* DPStateTests.m in Sources */,
-				24B2B06D1A066B81001D74E0 /* DPBridgeTests.m in Sources */,
-				2407155719F3EBB500E9F749 /* DPAbstractFactoryTests.m in Sources */,
-				2467F54D19F3819200437073 /* DPSimpleFactoryTests.m in Sources */,
-				2491E15F19F7F0AE009AC42F /* DPStrategyTests.m in Sources */,
-				24BD698A1A4477170007D525 /* DPPrototypeTests.m in Sources */,
-				2467F55F19F3A1F400437073 /* DPFactoryMethodTests.m in Sources */,
+				24B2B0501A060A28001D74E0 /* TemplateMethodTests.m in Sources */,
+				2406AAF11A433A8900B2A359 /* ProxyTests.m in Sources */,
+				2437B04B1A089B0C007CE0EF /* SingletonTests.m in Sources */,
+				24B2B0841A067DB1001D74E0 /* BuilderTests.m in Sources */,
+				24926FD51A43272A006E188B /* FacadeTests.m in Sources */,
+				24D9588419FE99B800C3F23E /* StateTests.m in Sources */,
+				24B2B06D1A066B81001D74E0 /* BridgeTests.m in Sources */,
+				2407155719F3EBB500E9F749 /* AbstractFactoryTests.m in Sources */,
+				2467F54D19F3819200437073 /* SimpleFactoryTests.m in Sources */,
+				2491E15F19F7F0AE009AC42F /* StrategyTests.m in Sources */,
+				24BD698A1A4477170007D525 /* PrototypeTests.m in Sources */,
+				2467F55F19F3A1F400437073 /* FactoryMethodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
