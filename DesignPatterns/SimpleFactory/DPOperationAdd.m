@@ -10,9 +10,6 @@
 
 @implementation DPOperationAdd
 
-@synthesize numberA = _numberA;
-@synthesize numberB = _numberB;
-
 - (CGFloat)getResult {
     return self.numberA + self.numberB;
 }

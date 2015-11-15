@@ -20,6 +20,7 @@
 		245C998119FE8B5E00B0EBBA /* DPWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998019FE8B5E00B0EBBA /* DPWork.m */; };
 		245C998419FE8C7900B0EBBA /* DPForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998319FE8C7900B0EBBA /* DPForenoonState.m */; };
 		245C998719FE8F0A00B0EBBA /* DPNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 245C998619FE8F0A00B0EBBA /* DPNoonState.m */; };
+		245CB3C21BF86C5D0006D277 /* DPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CB3C11BF86C5D0006D277 /* DPOperation.m */; };
 		2467F50C19F37ED800437073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50B19F37ED800437073 /* Foundation.framework */; };
 		2467F50E19F37ED800437073 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50D19F37ED800437073 /* CoreGraphics.framework */; };
 		2467F51019F37ED800437073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2467F50F19F37ED800437073 /* UIKit.framework */; };
@@ -121,6 +122,8 @@
 		245C998319FE8C7900B0EBBA /* DPForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPForenoonState.m; sourceTree = "<group>"; };
 		245C998519FE8F0A00B0EBBA /* DPNoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNoonState.h; sourceTree = "<group>"; };
 		245C998619FE8F0A00B0EBBA /* DPNoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPNoonState.m; sourceTree = "<group>"; };
+		245CB3C01BF86C5D0006D277 /* DPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperation.h; sourceTree = "<group>"; };
+		245CB3C11BF86C5D0006D277 /* DPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperation.m; sourceTree = "<group>"; };
 		2467F50819F37ED800437073 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467F50B19F37ED800437073 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2467F50D19F37ED800437073 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -136,7 +139,6 @@
 		2467F52419F37ED900437073 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2467F52C19F37ED900437073 /* DesignPatternsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DesignPatternsTests-Info.plist"; sourceTree = "<group>"; };
 		2467F52E19F37ED900437073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2467F53B19F37EEF00437073 /* DPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperation.h; sourceTree = "<group>"; };
 		2467F53C19F37EEF00437073 /* DPOperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationAdd.h; sourceTree = "<group>"; };
 		2467F53D19F37EEF00437073 /* DPOperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOperationAdd.m; sourceTree = "<group>"; };
 		2467F53E19F37EEF00437073 /* DPOperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOperationDiv.h; sourceTree = "<group>"; };
@@ -431,17 +433,18 @@
 		2467F53A19F37EEF00437073 /* SimpleFactory */ = {
 			isa = PBXGroup;
 			children = (
-				2467F53B19F37EEF00437073 /* DPOperation.h */,
+				245CB3C01BF86C5D0006D277 /* DPOperation.h */,
+				245CB3C11BF86C5D0006D277 /* DPOperation.m */,
 				2467F53C19F37EEF00437073 /* DPOperationAdd.h */,
 				2467F53D19F37EEF00437073 /* DPOperationAdd.m */,
+				2467F54419F37EEF00437073 /* DPOperationSub.h */,
+				2467F54519F37EEF00437073 /* DPOperationSub.m */,
+				2467F54219F37EEF00437073 /* DPOperationMul.h */,
+				2467F54319F37EEF00437073 /* DPOperationMul.m */,
 				2467F53E19F37EEF00437073 /* DPOperationDiv.h */,
 				2467F53F19F37EEF00437073 /* DPOperationDiv.m */,
 				2467F54019F37EEF00437073 /* DPOperationFactory.h */,
 				2467F54119F37EEF00437073 /* DPOperationFactory.m */,
-				2467F54219F37EEF00437073 /* DPOperationMul.h */,
-				2467F54319F37EEF00437073 /* DPOperationMul.m */,
-				2467F54419F37EEF00437073 /* DPOperationSub.h */,
-				2467F54519F37EEF00437073 /* DPOperationSub.m */,
 			);
 			path = SimpleFactory;
 			sourceTree = "<group>";
@@ -701,7 +704,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DP;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = zdnst;
 				TargetAttributes = {
 					2467F52219F37ED900437073 = {
@@ -757,6 +760,7 @@
 				2407155419F3EA6C00E9F749 /* DPAccessFactory.m in Sources */,
 				2491E16319F7F20E009AC42F /* DPCashContext.m in Sources */,
 				24B2B04D1A0609A8001D74E0 /* DPTestPaperB.m in Sources */,
+				245CB3C21BF86C5D0006D277 /* DPOperation.m in Sources */,
 				24B2B07B1A067B4E001D74E0 /* DPPersonFatBuilder.m in Sources */,
 				2467F54919F37EEF00437073 /* DPOperationMul.m in Sources */,
 				2467F55C19F3A11100437073 /* DPVolunteerFactory.m in Sources */,
@@ -877,6 +881,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -937,6 +942,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zdnst.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -950,6 +956,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zdnst.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -958,7 +965,7 @@
 		2467F53819F37ED900437073 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -971,8 +978,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DesignPatternsTests/DesignPatternsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zdnst.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -980,7 +988,7 @@
 		2467F53919F37ED900437073 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -989,8 +997,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatternsTests/DesignPatternsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zdnst.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

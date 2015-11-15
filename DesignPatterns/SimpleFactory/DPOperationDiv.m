@@ -10,9 +10,6 @@
 
 @implementation DPOperationDiv
 
-@synthesize numberA = _numberA;
-@synthesize numberB = _numberB;
-
 - (CGFloat)getResult {
     NSParameterAssert(self.numberB != 0);
     return self.numberA / self.numberB;

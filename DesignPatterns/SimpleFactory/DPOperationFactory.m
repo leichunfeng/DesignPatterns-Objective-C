@@ -14,7 +14,7 @@
 
 @implementation DPOperationFactory
 
-+ (id<DPOperation>)createOperation:(DPOperationType)operationType {
++ (DPOperation *)createOperation:(DPOperationType)operationType {
     switch (operationType) {
         case DPOperationTypeAdd:
             return [[DPOperationAdd alloc] init];
@@ -25,9 +25,7 @@
         case DPOperationTypeDiv:
             return [[DPOperationDiv alloc] init];
         default:
-            @throw [NSException exceptionWithName:NSInvalidArgumentException
-                                           reason:[NSString stringWithFormat:@"The given operationType `%lu` does not correspond to any known DPOperationType.", (unsigned long)operationType]
-                                         userInfo:nil];
+            return nil;
     }
 }
 

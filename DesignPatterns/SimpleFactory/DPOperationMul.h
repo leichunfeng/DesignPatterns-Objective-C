@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "DPOperation.h"
 
-@interface DPOperationMul : NSObject <DPOperation>
+@interface DPOperationMul : DPOperation
 
 @end

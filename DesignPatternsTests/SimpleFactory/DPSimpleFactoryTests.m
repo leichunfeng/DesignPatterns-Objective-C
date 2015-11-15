@@ -17,33 +17,25 @@
 @implementation DPSimpleFactoryTests
 
 - (void)testSimpleFactory {
-    id<DPOperation> operation = [DPOperationFactory createOperation:DPOperationTypeAdd];
-    [operation setNumberA:100.0];
-    [operation setNumberB:25.0];
-    CGFloat result = [operation getResult];
-    NSLog(@"result: %f", result);
-    XCTAssertTrue(result == 125.0);
+    DPOperation *operation = [DPOperationFactory createOperation:DPOperationTypeAdd];
+    operation.numberA = 100;
+    operation.numberB = 25;
+    XCTAssertTrue([operation getResult] == 125);
     
     operation = [DPOperationFactory createOperation:DPOperationTypeSub];
-    [operation setNumberA:100.0];
-    [operation setNumberB:25.0];
-    result = [operation getResult];
-    NSLog(@"result: %f", result);
-    XCTAssertTrue(result == 75.0);
+    operation.numberA = 100;
+    operation.numberB = 25;
+    XCTAssertTrue([operation getResult] == 75);
     
     operation = [DPOperationFactory createOperation:DPOperationTypeMul];
-    [operation setNumberA:100.0];
-    [operation setNumberB:25.0];
-    result = [operation getResult];
-    NSLog(@"result: %f", result);
-    XCTAssertTrue(result == 2500.0);
+    operation.numberA = 100;
+    operation.numberB = 25;
+    XCTAssertTrue([operation getResult] == 2500);
     
     operation = [DPOperationFactory createOperation:DPOperationTypeDiv];
-    [operation setNumberA:100.0];
-    [operation setNumberB:25.0];
-    result = [operation getResult];
-    NSLog(@"result: %f", result);
-    XCTAssertTrue(result == 4.0);
+    operation.numberA = 100;
+    operation.numberB = 25;
+    XCTAssertTrue([operation getResult] == 4);
 }
 
 @end
