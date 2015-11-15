@@ -711,9 +711,9 @@
 		2467F50019F37ED800437073 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DP;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = zdnst;
+				ORGANIZATIONNAME = leichunfeng;
 				TargetAttributes = {
 					2467F52219F37ED900437073 = {
 						TestTargetID = 2467F50719F37ED800437073;
@@ -950,7 +950,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zdnst.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leichunfeng.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -964,7 +964,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zdnst.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leichunfeng.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
