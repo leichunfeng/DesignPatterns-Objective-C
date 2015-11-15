@@ -11,15 +11,15 @@
 @implementation DPVolunteer
 
 - (void)sweep {
-    NSLog(@"Volunteer sweep");
+    NSLog(@"社区志愿者扫地");
 }
 
 - (void)wash {
-    NSLog(@"Volunteer wash");
+    NSLog(@"社区志愿者洗衣");
 }
 
 - (void)buyRice {
-    NSLog(@"Volunteer buyRice");
+    NSLog(@"社区志愿者买米");
 }
 
 @end

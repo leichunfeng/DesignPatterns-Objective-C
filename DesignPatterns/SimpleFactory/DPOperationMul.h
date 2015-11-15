@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DPOperation.h"
 
+/// 乘法类
 @interface DPOperationMul : DPOperation
 
 @end

@@ -8,15 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+/// 雷锋接口
 @protocol DPLeiFeng <NSObject>
 
-///  扫地
+/// 扫地
 - (void)sweep;
 
-///  洗衣
+/// 洗衣
 - (void)wash;
 
-///  买米
+/// 买米
 - (void)buyRice;
 
 @end

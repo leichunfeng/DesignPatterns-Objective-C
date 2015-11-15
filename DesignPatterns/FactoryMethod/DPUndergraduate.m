@@ -11,15 +11,15 @@
 @implementation DPUndergraduate
 
 - (void)sweep {
-    NSLog(@"Undergraduate sweep");
+    NSLog(@"大学生扫地");
 }
 
 - (void)wash {
-    NSLog(@"Undergraduate wash");
+    NSLog(@"大学生洗衣");
 }
 
 - (void)buyRice {
-    NSLog(@"Undergraduate buyRice");
+    NSLog(@"大学生买米");
 }
 
 @end

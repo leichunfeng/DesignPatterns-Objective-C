@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DPLeiFeng.h"
 
+/// 学雷锋的大学生类
 @interface DPUndergraduate : NSObject <DPLeiFeng>
 
 @end

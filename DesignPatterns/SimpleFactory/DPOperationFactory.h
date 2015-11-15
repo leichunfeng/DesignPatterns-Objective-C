@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DPOperation.h"
 
+/// 简单工厂类
 @interface DPOperationFactory : NSObject
 
 /// 简单工厂方法，用于创建运算实例

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DPLeiFeng.h"
 
+/// 社区志愿者类
 @interface DPVolunteer : NSObject <DPLeiFeng>
 
 @end

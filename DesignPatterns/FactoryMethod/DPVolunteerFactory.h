@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DPLeiFengFactory.h"
 
+/// 社区志愿者工厂类
 @interface DPVolunteerFactory : NSObject <DPLeiFengFactory>
 
 @end
