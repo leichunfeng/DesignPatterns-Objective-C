@@ -1,5 +1,5 @@
 //
-//  LeiFeng.h
+//  ILeiFeng.h
 //  DesignPatterns
 //
 //  Created by leichunfeng on 14-10-19.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /// 雷锋接口
-@protocol LeiFeng <NSObject>
+@protocol ILeiFeng <NSObject>
 
 /// 扫地
 - (void)sweep;

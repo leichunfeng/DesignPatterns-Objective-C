@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LeiFengFactory.h"
+#import "ILeiFengFactory.h"
 
 /// 学雷锋的大学生工厂类
-@interface UndergraduateFactory : NSObject <LeiFengFactory>
+@interface UndergraduateFactory : NSObject <ILeiFengFactory>
 
 @end

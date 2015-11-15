@@ -149,8 +149,8 @@
 		245CB3FD1BF8A28C0006D277 /* Stock2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock2.m; sourceTree = "<group>"; };
 		245CB3FE1BF8A28C0006D277 /* Stock3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock3.h; sourceTree = "<group>"; };
 		245CB3FF1BF8A28C0006D277 /* Stock3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock3.m; sourceTree = "<group>"; };
-		245CB4011BF8A28C0006D277 /* LeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
-		245CB4021BF8A28C0006D277 /* LeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFengFactory.h; sourceTree = "<group>"; };
+		245CB4011BF8A28C0006D277 /* ILeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILeiFeng.h; sourceTree = "<group>"; };
+		245CB4021BF8A28C0006D277 /* ILeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILeiFengFactory.h; sourceTree = "<group>"; };
 		245CB4031BF8A28C0006D277 /* Undergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
 		245CB4041BF8A28C0006D277 /* Undergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
 		245CB4051BF8A28C0006D277 /* UndergraduateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndergraduateFactory.h; sourceTree = "<group>"; };
@@ -295,22 +295,22 @@
 		245CB3CA1BF8A28C0006D277 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				245CB3CB1BF8A28C0006D277 /* AccessDepartment.h */,
-				245CB3CC1BF8A28C0006D277 /* AccessDepartment.m */,
-				245CB3CD1BF8A28C0006D277 /* AccessFactory.h */,
-				245CB3CE1BF8A28C0006D277 /* AccessFactory.m */,
-				245CB3CF1BF8A28C0006D277 /* AccessUser.h */,
-				245CB3D01BF8A28C0006D277 /* AccessUser.m */,
 				245CB3D11BF8A28C0006D277 /* Entity */,
-				245CB3D61BF8A28C0006D277 /* IDepartment.h */,
-				245CB3D71BF8A28C0006D277 /* IFactory.h */,
 				245CB3D81BF8A28C0006D277 /* IUser.h */,
-				245CB3D91BF8A28C0006D277 /* SQLServerDepartment.h */,
-				245CB3DA1BF8A28C0006D277 /* SQLServerDepartment.m */,
-				245CB3DB1BF8A28C0006D277 /* SQLServerFactory.h */,
-				245CB3DC1BF8A28C0006D277 /* SQLServerFactory.m */,
 				245CB3DD1BF8A28C0006D277 /* SQLServerUser.h */,
 				245CB3DE1BF8A28C0006D277 /* SQLServerUser.m */,
+				245CB3CF1BF8A28C0006D277 /* AccessUser.h */,
+				245CB3D01BF8A28C0006D277 /* AccessUser.m */,
+				245CB3D61BF8A28C0006D277 /* IDepartment.h */,
+				245CB3D91BF8A28C0006D277 /* SQLServerDepartment.h */,
+				245CB3DA1BF8A28C0006D277 /* SQLServerDepartment.m */,
+				245CB3CB1BF8A28C0006D277 /* AccessDepartment.h */,
+				245CB3CC1BF8A28C0006D277 /* AccessDepartment.m */,
+				245CB3D71BF8A28C0006D277 /* IFactory.h */,
+				245CB3DB1BF8A28C0006D277 /* SQLServerFactory.h */,
+				245CB3DC1BF8A28C0006D277 /* SQLServerFactory.m */,
+				245CB3CD1BF8A28C0006D277 /* AccessFactory.h */,
+				245CB3CE1BF8A28C0006D277 /* AccessFactory.m */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -318,10 +318,10 @@
 		245CB3D11BF8A28C0006D277 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				245CB3D21BF8A28C0006D277 /* Department.h */,
-				245CB3D31BF8A28C0006D277 /* Department.m */,
 				245CB3D41BF8A28C0006D277 /* User.h */,
 				245CB3D51BF8A28C0006D277 /* User.m */,
+				245CB3D21BF8A28C0006D277 /* Department.h */,
+				245CB3D31BF8A28C0006D277 /* Department.m */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -380,14 +380,14 @@
 		245CB4001BF8A28C0006D277 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
-				245CB4011BF8A28C0006D277 /* LeiFeng.h */,
-				245CB4021BF8A28C0006D277 /* LeiFengFactory.h */,
+				245CB4011BF8A28C0006D277 /* ILeiFeng.h */,
 				245CB4031BF8A28C0006D277 /* Undergraduate.h */,
 				245CB4041BF8A28C0006D277 /* Undergraduate.m */,
-				245CB4051BF8A28C0006D277 /* UndergraduateFactory.h */,
-				245CB4061BF8A28C0006D277 /* UndergraduateFactory.m */,
 				245CB4071BF8A28C0006D277 /* Volunteer.h */,
 				245CB4081BF8A28C0006D277 /* Volunteer.m */,
+				245CB4021BF8A28C0006D277 /* ILeiFengFactory.h */,
+				245CB4051BF8A28C0006D277 /* UndergraduateFactory.h */,
+				245CB4061BF8A28C0006D277 /* UndergraduateFactory.m */,
 				245CB4091BF8A28C0006D277 /* VolunteerFactory.h */,
 				245CB40A1BF8A28C0006D277 /* VolunteerFactory.m */,
 			);
@@ -430,14 +430,14 @@
 				245CB41E1BF8A28C0006D277 /* Operation.m */,
 				245CB41F1BF8A28C0006D277 /* OperationAdd.h */,
 				245CB4201BF8A28C0006D277 /* OperationAdd.m */,
+				245CB4271BF8A28C0006D277 /* OperationSub.h */,
+				245CB4281BF8A28C0006D277 /* OperationSub.m */,
+				245CB4251BF8A28C0006D277 /* OperationMul.h */,
+				245CB4261BF8A28C0006D277 /* OperationMul.m */,
 				245CB4211BF8A28C0006D277 /* OperationDiv.h */,
 				245CB4221BF8A28C0006D277 /* OperationDiv.m */,
 				245CB4231BF8A28C0006D277 /* OperationFactory.h */,
 				245CB4241BF8A28C0006D277 /* OperationFactory.m */,
-				245CB4251BF8A28C0006D277 /* OperationMul.h */,
-				245CB4261BF8A28C0006D277 /* OperationMul.m */,
-				245CB4271BF8A28C0006D277 /* OperationSub.h */,
-				245CB4281BF8A28C0006D277 /* OperationSub.m */,
 			);
 			path = SimpleFactory;
 			sourceTree = "<group>";
@@ -950,7 +950,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leichunfeng.DesignPatterns;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdnst.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -964,7 +964,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.leichunfeng.DesignPatterns;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdnst.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

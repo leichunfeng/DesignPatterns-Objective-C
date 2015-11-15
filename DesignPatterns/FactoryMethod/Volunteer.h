@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LeiFeng.h"
+#import "ILeiFeng.h"
 
 /// 社区志愿者类
-@interface Volunteer : NSObject <LeiFeng>
+@interface Volunteer : NSObject <ILeiFeng>
 
 @end

@@ -11,7 +11,7 @@
 
 @implementation UndergraduateFactory
 
-- (id<LeiFeng>)createLeiFeng {
+- (id<ILeiFeng>)createLeiFeng {
     return [[Undergraduate alloc] init];
 }
 

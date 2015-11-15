@@ -7,8 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "LeiFeng.h"
-#import "LeiFengFactory.h"
+#import "ILeiFeng.h"
+#import "ILeiFengFactory.h"
 #import "UndergraduateFactory.h"
 #import "VolunteerFactory.h"
 
@@ -19,20 +19,20 @@
 @implementation FactoryMethodTests
 
 - (void)testFactoryMethod {
-    id<LeiFengFactory> leiFengFactory = [[UndergraduateFactory alloc] init];
-//    id<LeiFengFactory> leiFengFactory = [[VolunteerFactory alloc] init];
+    id<ILeiFengFactory> leiFengFactory = [[UndergraduateFactory alloc] init];
+//    id<ILeiFengFactory> leiFengFactory = [[VolunteerFactory alloc] init];
     
-    id<LeiFeng> studentA = [leiFengFactory createLeiFeng];
+    id<ILeiFeng> studentA = [leiFengFactory createLeiFeng];
     [studentA sweep];
     [studentA wash];
     [studentA buyRice];
     
-    id<LeiFeng> studentB = [leiFengFactory createLeiFeng];
+    id<ILeiFeng> studentB = [leiFengFactory createLeiFeng];
     [studentB sweep];
     [studentB wash];
     [studentB buyRice];
     
-    id<LeiFeng> studentC = [leiFengFactory createLeiFeng];
+    id<ILeiFeng> studentC = [leiFengFactory createLeiFeng];
     [studentC sweep];
     [studentC wash];
     [studentC buyRice];

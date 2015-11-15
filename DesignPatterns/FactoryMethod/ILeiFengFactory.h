@@ -1,5 +1,5 @@
 //
-//  LeiFengFactory.h
+//  ILeiFengFactory.h
 //  DesignPatterns
 //
 //  Created by leichunfeng on 14-10-19.
@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LeiFeng.h"
+#import "ILeiFeng.h"
 
 /// 雷锋工厂接口
-@protocol LeiFengFactory <NSObject>
+@protocol ILeiFengFactory <NSObject>
 
 /// 工厂方法，用于创建雷锋实例
 ///
 /// @return 雷锋实例
-- (id<LeiFeng>)createLeiFeng;
+- (id<ILeiFeng>)createLeiFeng;
 
 @end

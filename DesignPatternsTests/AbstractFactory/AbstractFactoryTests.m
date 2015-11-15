@@ -26,13 +26,13 @@
     id<IFactory> factory = [[SQLServerFactory alloc] init];
 //    id<IFactory> factory = [[AccessFactory alloc] init];
     
-    id<IUser> userCrud = [factory createUser];
-    [userCrud insert:user];
-    [userCrud getUser:@"1"];
+    id<IUser> iUser = [factory createUser];
+    [iUser insert:user];
+    [iUser getUser:@"1"];
     
-    id<IDepartment> departmentCrud = [factory createDepartment];
-    [departmentCrud insert:department];
-    [departmentCrud getDepartment:@"1"];
+    id<IDepartment> iDepartment = [factory createDepartment];
+    [iDepartment insert:department];
+    [iDepartment getDepartment:@"1"];
 }
 
 @end

@@ -11,7 +11,7 @@
 
 @implementation VolunteerFactory
 
-- (id<LeiFeng>)createLeiFeng {
+- (id<ILeiFeng>)createLeiFeng {
     return [[Volunteer alloc] init];
 }
 
